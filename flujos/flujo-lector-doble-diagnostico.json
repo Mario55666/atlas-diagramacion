@@ -1,0 +1,333 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "Lector PDF: doble diagnóstico y visor por capas",
+    "quality_profile": "showcase",
+    "legend": {
+      "mode": "auto",
+      "entries": {
+        "external": {
+          "label": "Documento"
+        },
+        "frontend": {
+          "label": "Lectura y visor"
+        },
+        "backend": {
+          "label": "Análisis"
+        },
+        "database": {
+          "label": "Patrones"
+        },
+        "messagebus": {
+          "label": "OCR"
+        },
+        "cloud": {
+          "label": "Uso del resultado"
+        }
+      }
+    },
+    "views": [
+      {
+        "id": "geometrico",
+        "label": "Diagnóstico geométrico",
+        "focus": [
+          "pdf",
+          "render",
+          "metricas",
+          "clasif",
+          "cercano"
+        ],
+        "note": "Métricas de página, tipo de pieza y patrón más cercano por afinidad global."
+      },
+      {
+        "id": "visual",
+        "label": "Organización visual",
+        "focus": [
+          "render",
+          "ocr",
+          "fusion",
+          "roles",
+          "mezcla"
+        ],
+        "note": "OCR y capa de texto se funden en bloques con rol, jerarquía y orden de lectura."
+      },
+      {
+        "id": "capas",
+        "label": "Visor por capas",
+        "focus": [
+          "cercano",
+          "mezcla",
+          "visor",
+          "exportar"
+        ],
+        "note": "El PDF ampliado con la retícula, los bloques y la mezcla de esquemas superpuestos."
+      }
+    ]
+  },
+  "lanes": [
+    {
+      "id": "geometria",
+      "label": "Diagnóstico 1 · geometría"
+    },
+    {
+      "id": "lectura",
+      "label": "Diagnóstico 2 · organización visual"
+    },
+    {
+      "id": "uso",
+      "label": "Visor y salida"
+    }
+  ],
+  "phases": [
+    {
+      "id": "f_leer",
+      "label": "Leer",
+      "fromCol": 0,
+      "toCol": 1
+    },
+    {
+      "id": "f_diagnosticar",
+      "label": "Diagnosticar",
+      "fromCol": 2,
+      "toCol": 3,
+      "variant": "emphasis"
+    },
+    {
+      "id": "f_componer",
+      "label": "Componer y usar",
+      "fromCol": 4,
+      "toCol": 5,
+      "variant": "dashed"
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_geo",
+      "label": "Afinidad global",
+      "lane": "geometria",
+      "fromCol": 2,
+      "toCol": 4,
+      "variant": "dashed"
+    },
+    {
+      "id": "g_mezcla",
+      "label": "Esquemas por zona",
+      "lane": "lectura",
+      "fromCol": 3,
+      "toCol": 4,
+      "variant": "emphasis"
+    }
+  ],
+  "mainPath": [
+    "pdf",
+    "render",
+    "ocr",
+    "fusion",
+    "roles",
+    "mezcla",
+    "visor",
+    "exportar"
+  ],
+  "nodes": [
+    {
+      "id": "pdf",
+      "lane": "geometria",
+      "col": 0,
+      "type": "external",
+      "label": "PDF",
+      "sublabel": "hasta 5 páginas",
+      "width": 124
+    },
+    {
+      "id": "render",
+      "lane": "geometria",
+      "col": 1,
+      "type": "frontend",
+      "label": "pdf.js",
+      "sublabel": "texto + raster",
+      "width": 124
+    },
+    {
+      "id": "metricas",
+      "lane": "geometria",
+      "col": 2,
+      "type": "backend",
+      "label": "Métricas",
+      "sublabel": "columnas · densidad",
+      "width": 124
+    },
+    {
+      "id": "clasif",
+      "lane": "geometria",
+      "col": 3,
+      "type": "backend",
+      "label": "Clasificación",
+      "sublabel": "tipo de pieza",
+      "width": 124
+    },
+    {
+      "id": "cercano",
+      "lane": "geometria",
+      "col": 4,
+      "type": "database",
+      "label": "Patrón cercano",
+      "sublabel": "afinidad %",
+      "width": 124
+    },
+    {
+      "id": "ocr",
+      "lane": "lectura",
+      "col": 1,
+      "type": "messagebus",
+      "label": "OCR",
+      "sublabel": "Tesseract · palabras",
+      "width": 124
+    },
+    {
+      "id": "fusion",
+      "lane": "lectura",
+      "col": 2,
+      "type": "backend",
+      "label": "Fusión",
+      "sublabel": "texto PDF + OCR",
+      "width": 124
+    },
+    {
+      "id": "roles",
+      "lane": "lectura",
+      "col": 3,
+      "type": "backend",
+      "label": "Bloques por rol",
+      "sublabel": "jerarquía + lectura",
+      "width": 124
+    },
+    {
+      "id": "mezcla",
+      "lane": "lectura",
+      "col": 4,
+      "type": "database",
+      "label": "Mezcla de esquemas",
+      "sublabel": "zonas por patrón",
+      "width": 124
+    },
+    {
+      "id": "visor",
+      "lane": "uso",
+      "col": 4,
+      "type": "frontend",
+      "label": "Visor por capas",
+      "sublabel": "PDF + esquemas",
+      "width": 124
+    },
+    {
+      "id": "exportar",
+      "lane": "uso",
+      "col": 5,
+      "type": "cloud",
+      "label": "Configurador",
+      "sublabel": "biblioteca · IDML",
+      "width": 124
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_pdf_render",
+      "from": "pdf",
+      "to": "render",
+      "variant": "emphasis"
+    },
+    {
+      "id": "e_render_ocr",
+      "from": "render",
+      "to": "ocr",
+      "label": "raster 2×",
+      "variant": "emphasis"
+    },
+    {
+      "id": "e_render_met",
+      "from": "render",
+      "to": "metricas",
+      "label": "geometría",
+      "variant": "dashed",
+      "role": "branch"
+    },
+    {
+      "id": "e_met_clas",
+      "from": "metricas",
+      "to": "clasif",
+      "variant": "dashed"
+    },
+    {
+      "id": "e_clas_cer",
+      "from": "clasif",
+      "to": "cercano",
+      "variant": "dashed"
+    },
+    {
+      "id": "e_ocr_fus",
+      "from": "ocr",
+      "to": "fusion",
+      "variant": "emphasis"
+    },
+    {
+      "id": "e_fus_rol",
+      "from": "fusion",
+      "to": "roles",
+      "variant": "emphasis"
+    },
+    {
+      "id": "e_rol_mez",
+      "from": "roles",
+      "to": "mezcla",
+      "variant": "emphasis"
+    },
+    {
+      "id": "e_cer_mez",
+      "from": "cercano",
+      "to": "mezcla",
+      "label": "candidatos",
+      "variant": "dashed",
+      "role": "branch"
+    },
+    {
+      "id": "e_mez_vis",
+      "from": "mezcla",
+      "to": "visor",
+      "variant": "emphasis"
+    },
+    {
+      "id": "e_vis_exp",
+      "from": "visor",
+      "to": "exportar",
+      "label": "aplicar",
+      "variant": "emphasis"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "slate",
+      "title": "Diagnóstico 1 · geometría",
+      "items": [
+        "Mide columnas, cuerpo, márgenes, imagen y densidad",
+        "Da el tipo de pieza y un patrón por afinidad global"
+      ]
+    },
+    {
+      "dot": "violet",
+      "title": "Diagnóstico 2 · lectura",
+      "items": [
+        "El OCR lee lo que la capa de texto no trae",
+        "Cada bloque recibe rol, nivel jerárquico y orden"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "Mezcla de esquemas",
+      "items": [
+        "Cada zona de la página se atribuye al patrón que mejor la explica",
+        "El visor superpone PDF, retícula, bloques y patrones"
+      ]
+    }
+  ]
+}

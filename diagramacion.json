@@ -1,0 +1,3857 @@
+{
+  "meta": {
+    "titulo": "Atlas de la diagramación editorial",
+    "subtitulo": "Teorías, principios y patrones para organizar revistas, periódicos y anuncios",
+    "version": "1.2.0",
+    "fecha": "2026-10-22",
+    "idioma": "es",
+    "autor": "Síntesis de investigación · Biblioteca Creatividad, MPI-DUAE",
+    "resumen": "Modelo de datos y guía visual que conecta las teorías del diseño con la organización de la página impresa y la construcción de anuncios. Cada patrón describe su retícula, su recorrido de lectura y sus reglas de composición.",
+    "nota": "Los esquemas son reconstrucciones analíticas elaboradas para este atlas; no reproducen páginas de las obras citadas.",
+    "descripcion": "Modelo de datos y laboratorio de análisis para identificar estilos de diagramación en revistas, periódicos y anuncios, con biblioteca de estilos y exportación XML/IDML."
+  },
+  "teorias": [
+    {
+      "id": "bauhaus",
+      "numero": "01",
+      "nombre": "Bauhaus",
+      "epoca": "1919–1933",
+      "autor": "Walter Gropius, Johannes Itten, László Moholy-Nagy, Herbert Bayer",
+      "lema": "Forma para una función",
+      "sintesis": "La escuela de Weimar, Dessau y Berlín quiso unir arte, artesanía y técnica en una práctica proyectual. La forma se deduce del uso, del material y del sistema constructivo; la enseñanza elemental —punto, línea, plano, color, volumen— se convierte en gramática del diseño. En gráfica esto produce composiciones asimétricas, tipografía sans serif, geometría elemental y una economía de medios que anticipa la retícula funcional.",
+      "editorial": [
+        "Portadas y carteles construidos con módulos geométricos y una paleta reducida.",
+        "Jerarquía por tamaño, peso y posición, sin ornamentos.",
+        "Tipografía tratada como estructura: mayúsculas, líneas y bloques alineados a una lógica."
+      ],
+      "publicidad": [
+        "El anuncio se resuelve con un signo fuerte y un texto breve.",
+        "Fotografía y tipografía se integran en un mismo sistema formal.",
+        "La función manda: cada elemento justifica su presencia."
+      ],
+      "principios": [
+        "reticula",
+        "jerarquia",
+        "contraste",
+        "unidad-variedad"
+      ],
+      "fuentes": [
+        "s04",
+        "s03"
+      ]
+    },
+    {
+      "id": "suiza",
+      "numero": "02",
+      "nombre": "Estilo tipográfico internacional",
+      "epoca": "1950–1970",
+      "autor": "Josef Müller-Brockmann, Armin Hofmann, Emil Ruder",
+      "lema": "El orden como método",
+      "sintesis": "La escuela suiza sistematizó la página como una retícula matematizable. Defendió la objetividad, la sans serif, el texto alineado a la izquierda, la fotografía como documento y el blanco como material activo. La retícula no es una jaula: es el acuerdo que permite variar sin perder coherencia.",
+      "editorial": [
+        "Retícula de columnas y líneas de flujo declarada desde el inicio.",
+        "Escala tipográfica modular e interlineado constante.",
+        "Asimetría controlada y grandes zonas de blanco."
+      ],
+      "publicidad": [
+        "Anuncios de una sola imagen y un titular preciso.",
+        "Alineaciones estrictas que transmiten rigor y confianza.",
+        "El producto y el texto comparten el mismo eje."
+      ],
+      "principios": [
+        "reticula",
+        "alineacion",
+        "espacio-blanco",
+        "legibilidad",
+        "proporcion"
+      ],
+      "fuentes": [
+        "s01",
+        "s03",
+        "s04"
+      ]
+    },
+    {
+      "id": "gestalt",
+      "numero": "03",
+      "nombre": "Psicología de la forma",
+      "epoca": "1920–1950",
+      "autor": "Max Wertheimer, Wolfgang Köhler, Kurt Koffka",
+      "lema": "El todo es más que la suma de las partes",
+      "sintesis": "La Gestalt explica cómo agrupamos lo que vemos: proximidad, similitud, continuidad, cierre, figura-fondo y pregnancia. El lector no ve columnas ni cajas aisladas, sino conjuntos. La diagramación trabaja con esas agrupaciones: lo que se acerca se lee junto; lo que se separa, se jerarquiza.",
+      "editorial": [
+        "Proximidad para separar noticia, sumario y pie de foto.",
+        "Similitud de estilo para agrupar secciones.",
+        "Figura-fondo para que el titular emerja de la mancha."
+      ],
+      "publicidad": [
+        "El producto se separa del fondo para ser figura.",
+        "Bloques de texto cortos y próximos al CTA.",
+        "Cierre visual: el ojo completa la forma propuesta."
+      ],
+      "principios": [
+        "proximidad",
+        "contraste",
+        "punto-focal",
+        "unidad-variedad"
+      ],
+      "fuentes": [
+        "s03",
+        "s02",
+        "s01"
+      ]
+    },
+    {
+      "id": "semiotica",
+      "numero": "04",
+      "nombre": "Semiótica y retórica visual",
+      "epoca": "1960–2000",
+      "autor": "Ferdinand de Saussure, Charles S. Peirce; retórica de la imagen",
+      "lema": "Toda forma significa",
+      "sintesis": "El diseño editorial y publicitario es un sistema de signos. La escala de iconicidad —de la fotografía al pictograma y de ahí a la abstracción— permite graduar el realismo según el objetivo. La retórica visual (metáfora, metonimia, hipérbole, elipsis, personificación) organiza el salto entre imagen y texto.",
+      "editorial": [
+        "La fotografía documental informa; el pictograma orienta; la abstracción interpreta.",
+        "Titular y antetítulo construyen un enunciado de dos niveles.",
+        "El pie de foto ancla el sentido de la imagen."
+      ],
+      "publicidad": [
+        "Metáfora visual para condensar un beneficio.",
+        "Hipérbole de escala para demostrar un atributo.",
+        "Iconicidad alta para producto, baja para concepto."
+      ],
+      "principios": [
+        "contraste",
+        "punto-focal",
+        "unidad-variedad"
+      ],
+      "fuentes": [
+        "s13",
+        "s03",
+        "s06"
+      ]
+    },
+    {
+      "id": "editorial-moderno",
+      "numero": "05",
+      "nombre": "Diseño editorial moderno",
+      "epoca": "1950–1990",
+      "autor": "Harold Evans, Jan Tschichold, Josef Müller-Brockmann",
+      "lema": "La página es un sistema",
+      "sintesis": "El periodismo moderno convirtió la página en un sistema de transmisión de información bajo presión de tiempo. La tradición del diseño de prensa fijó la retícula básica, el encolumnado legible, la jerarquía de titulares y la economía de recursos. La página debe poder leerse en capas: de un vistazo, por secciones y en profundidad.",
+      "editorial": [
+        "Retícula básica que ordena columnas, filetes y módulos.",
+        "Jerarquía en tres niveles: titular, entradilla, cuerpo.",
+        "Página como recorrido: portada, doble página, sección."
+      ],
+      "publicidad": [
+        "Anuncios integrados en módulos sin romper la mancha.",
+        "Formatos estándar que negocian con la retícula.",
+        "Claridad por encima del efecto."
+      ],
+      "principios": [
+        "reticula",
+        "jerarquia",
+        "legibilidad",
+        "modularidad"
+      ],
+      "fuentes": [
+        "s03",
+        "s01",
+        "s07"
+      ]
+    },
+    {
+      "id": "constructivismo",
+      "numero": "06",
+      "nombre": "Constructivismo",
+      "epoca": "1915–1930",
+      "autor": "El Lissitzky, Aleksandr Ródchenko, Gustav Klutsis",
+      "lema": "La tipografía como acción",
+      "sintesis": "La vanguardia soviética trasladó la energía política a la página: diagonales, tipografía gigante, fotomontaje, rojo y negro, ejes quebrados. El anuncio se vuelve agitación visual. Su lección para la diagramación actual es la tensión controlada: un eje dominante, un contraste extremo y un punto de entrada inequívoco.",
+      "editorial": [
+        "Portadas con diagonales y tipografía como bloque.",
+        "Fotomontaje que yuxtapone escalas.",
+        "Contraste cromático reducido a dos o tres valores."
+      ],
+      "publicidad": [
+        "Un solo golpe visual: titular enorme, imagen recortada.",
+        "Composición en tensión, no centrada.",
+        "Ritmo por repetición de elementos gráficos."
+      ],
+      "principios": [
+        "contraste",
+        "punto-focal",
+        "transgresion",
+        "proporcion"
+      ],
+      "fuentes": [
+        "s04",
+        "s01"
+      ]
+    },
+    {
+      "id": "ulm",
+      "numero": "07",
+      "nombre": "Escuela de Ulm",
+      "epoca": "1953–1968",
+      "autor": "Max Bill, Otl Aicher, Hans Gugelot",
+      "lema": "Diseñar sistemas, no objetos",
+      "sintesis": "La Hochschule für Gestaltung de Ulm llevó la racionalidad de la Bauhaus a la producción industrial y a los sistemas de información. El diseño se entiende como sistema replicable: retículas, módulos y programas de identidad aplicables a series completas de piezas.",
+      "editorial": [
+        "Programas visuales para series completas de publicaciones.",
+        "Retículas modulares que admiten múltiples combinaciones.",
+        "Normalización de formatos, márgenes y escalas."
+      ],
+      "publicidad": [
+        "Identidad corporativa aplicada a todos los soportes.",
+        "Pictogramas y señalética como lenguaje común.",
+        "El sistema garantiza coherencia entre campañas."
+      ],
+      "principios": [
+        "modularidad",
+        "reticula",
+        "unidad-variedad",
+        "proporcion"
+      ],
+      "fuentes": [
+        "s04",
+        "s03"
+      ]
+    },
+    {
+      "id": "legibilidad",
+      "numero": "08",
+      "nombre": "Legibilidad y lectura",
+      "epoca": "Siglo XX–actualidad",
+      "autor": "Timothy Samara, Guillermo González Ruiz, Harold Evans",
+      "lema": "El diseño no es para usted",
+      "sintesis": "Leer es un proceso fisiológico y cultural: el ojo avanza a saltos, reconoce formas de palabra y necesita anclajes. La longitud de línea, el interlineado, el contraste y la jerarquía determinan si un texto se lee o se abandona. La diagramación es, antes que estética, una tecnología de lectura.",
+      "editorial": [
+        "Líneas de 45 a 75 caracteres; columnas más anchas exigen más interlineado.",
+        "Cuerpo con contraste suficiente sobre el papel.",
+        "Titulares y sumarios que permiten escanear antes de leer."
+      ],
+      "publicidad": [
+        "Texto breve, una idea por línea.",
+        "El titular debe funcionar a tamaño pequeño y en blanco y negro.",
+        "El CTA se lee sin esfuerzo."
+      ],
+      "principios": [
+        "legibilidad",
+        "jerarquia",
+        "contraste",
+        "espacio-blanco"
+      ],
+      "fuentes": [
+        "s01",
+        "s03",
+        "s07"
+      ]
+    },
+    {
+      "id": "creatividad-publicitaria",
+      "numero": "09",
+      "nombre": "Métodos de ideación publicitaria",
+      "epoca": "2000–actualidad",
+      "autor": "Postgrado de Dirección de Arte (métodos DDDD y CB&CB&CB)",
+      "lema": "Primero el contexto, después la forma",
+      "sintesis": "Los métodos de ideación separan el problema de la solución. DDDD propone Descubrir, Definir, Desarrollar y Dirigir; CB&CB&CB parte del contexto, los referentes, las tendencias, el campo y la imagen. El resultado es un concepto que después se materializa en dirección de arte: tipografía, color, textura y composición.",
+      "editorial": [
+        "El concepto define el tono de la página antes de la retícula.",
+        "Referentes visuales compartidos con el equipo editorial.",
+        "La dirección de arte unifica portada, interiores y campaña."
+      ],
+      "publicidad": [
+        "Investigación y posicionamiento antes de la forma.",
+        "Un concepto por campaña; una ejecución por soporte.",
+        "El formato se elige después del mensaje."
+      ],
+      "principios": [
+        "unidad-variedad",
+        "punto-focal",
+        "contraste"
+      ],
+      "fuentes": [
+        "s10",
+        "s11",
+        "s06",
+        "s09"
+      ]
+    },
+    {
+      "id": "composicion-visual",
+      "numero": "10",
+      "nombre": "Leyes compositivas",
+      "epoca": "1960–actualidad",
+      "autor": "Tratadística de la composición visual; Wucius Wong",
+      "lema": "Equilibrio con tensión",
+      "sintesis": "Las leyes compositivas operan por pares: equilibrio y tensión, simetría y asimetría, regularidad e irregularidad, unidad y variedad, densidad y aire, previsibilidad y sorpresa. No son recetas: son ejes de decisión. Una página se vuelve memorable cuando elige conscientemente en qué punto de cada eje quiere situarse.",
+      "editorial": [
+        "Simetría para portadas institucionales; asimetría para reportajes.",
+        "Ritmo de dobles páginas: densa, aireada, imagen a sangre.",
+        "Unidad por repetición de ejes y estilos tipográficos."
+      ],
+      "publicidad": [
+        "Contraste de escala para jerarquizar el producto.",
+        "Exageración controlada para demostrar el beneficio.",
+        "Neutralidad cuando el producto es el protagonista."
+      ],
+      "principios": [
+        "equilibrio",
+        "contraste",
+        "unidad-variedad",
+        "proporcion"
+      ],
+      "fuentes": [
+        "s08",
+        "s02"
+      ]
+    },
+    {
+      "id": "ruptura",
+      "numero": "11",
+      "nombre": "Ruptura y posmodernidad",
+      "epoca": "1980–actualidad",
+      "autor": "Diseño editorial contemporáneo; Timothy Samara",
+      "lema": "Conocer la regla para romperla",
+      "sintesis": "Conocer la norma permite transgredirla con sentido. La gráfica contemporánea combina retículas estrictas con capas, collage, tipografía deformada y espacios que se rompen. La ruptura funciona cuando el lector reconoce el orden previo: sin sistema, la transgresión se lee como error.",
+      "editorial": [
+        "Páginas de collage que superponen imagen, texto y color.",
+        "Retícula visible que se quiebra en un punto deliberado.",
+        "Tipografía expresiva reservada a aperturas y portadas."
+      ],
+      "publicidad": [
+        "Campañas que rompen el formato estándar para ganar atención.",
+        "Error tipográfico controlado como gesto de marca.",
+        "El caos debe tener un punto focal claro."
+      ],
+      "principios": [
+        "transgresion",
+        "contraste",
+        "punto-focal",
+        "unidad-variedad"
+      ],
+      "fuentes": [
+        "s01",
+        "s08",
+        "s06"
+      ]
+    }
+  ],
+  "principios": [
+    {
+      "id": "jerarquia",
+      "numero": "01",
+      "nombre": "Jerarquía",
+      "definicion": "Ordenar los elementos según su importancia para que el lector sepa qué leer primero, segundo y tercero.",
+      "en_pagina": "Titular > entradilla > cuerpo > pie de foto; la escala y el peso construyen el orden.",
+      "en_anuncio": "Producto > beneficio > marca > llamada a la acción.",
+      "error": "Todos los elementos gritan al mismo volumen y el lector no encuentra la entrada.",
+      "fuentes": [
+        "s01",
+        "s03",
+        "s07"
+      ]
+    },
+    {
+      "id": "contraste",
+      "numero": "02",
+      "nombre": "Contraste",
+      "definicion": "Diferenciar por tamaño, peso, color, tono, forma u orientación para crear tensión y legibilidad.",
+      "en_pagina": "Titular condensado frente a cuerpo ligero; imagen oscura frente a papel claro.",
+      "en_anuncio": "Un solo contraste dominante: escala del producto o color de la marca.",
+      "error": "Contraste decorativo sin función: todo se agita y nada se entiende.",
+      "fuentes": [
+        "s01",
+        "s02",
+        "s08"
+      ]
+    },
+    {
+      "id": "equilibrio",
+      "numero": "03",
+      "nombre": "Equilibrio",
+      "definicion": "Distribuir el peso óptico de los elementos alrededor de un eje o de un centro de gravedad.",
+      "en_pagina": "Simetría para piezas institucionales; asimetría compensada para reportajes.",
+      "en_anuncio": "Producto a un lado, texto al otro; el peso se compensa con aire.",
+      "error": "Centrar todo por miedo a la asimetría, o cargar un lado sin contrapeso.",
+      "fuentes": [
+        "s08",
+        "s02",
+        "s03"
+      ]
+    },
+    {
+      "id": "proximidad",
+      "numero": "04",
+      "nombre": "Proximidad",
+      "definicion": "Los elementos cercanos se perciben como un grupo; la distancia construye relaciones y jerarquías.",
+      "en_pagina": "Titular, entradilla y foto forman una unidad; el filete separa la siguiente noticia.",
+      "en_anuncio": "Texto y CTA se acercan; el logotipo se separa para no competir.",
+      "error": "Bloques equidistantes que obliteran la agrupación y obligan a leer todo seguido.",
+      "fuentes": [
+        "s03",
+        "s02"
+      ]
+    },
+    {
+      "id": "alineacion",
+      "numero": "05",
+      "nombre": "Alineación",
+      "definicion": "Establecer ejes visibles que ordenan los elementos y guían el ojo por la página.",
+      "en_pagina": "Una sola alineación dominante; las columnas comparten línea base.",
+      "en_anuncio": "Titular, cuerpo y CTA comparten el mismo eje izquierdo.",
+      "error": "Cinco alineaciones distintas en una misma pieza.",
+      "fuentes": [
+        "s01",
+        "s03"
+      ]
+    },
+    {
+      "id": "repeticion",
+      "numero": "06",
+      "nombre": "Repetición y ritmo",
+      "definicion": "Reiterar elementos para crear serie, cadencia y coherencia entre páginas y piezas.",
+      "en_pagina": "Misma familia tipográfica, mismo ancho de columna, mismo tratamiento de foto.",
+      "en_anuncio": "Campaña con un elemento gráfico constante y variaciones de imagen.",
+      "error": "Repetición sin variación: la serie se vuelve ruido.",
+      "fuentes": [
+        "s02",
+        "s01",
+        "s05"
+      ]
+    },
+    {
+      "id": "reticula",
+      "numero": "07",
+      "nombre": "Retícula",
+      "definicion": "Sistema invisible de columnas, filas, márgenes y líneas de flujo que ordena la página.",
+      "en_pagina": "De 3 a 12 columnas; los módulos publicitarios se alinean a la misma retícula.",
+      "en_anuncio": "La retícula sostiene la composición aunque el anuncio sea de una sola imagen.",
+      "error": "Retícula inexistente o tan rígida que impide cualquier variación.",
+      "fuentes": [
+        "s01",
+        "s03",
+        "s02"
+      ]
+    },
+    {
+      "id": "modularidad",
+      "numero": "08",
+      "nombre": "Modularidad",
+      "definicion": "Construir la página con módulos repetibles que pueden combinarse sin perder el sistema.",
+      "en_pagina": "Módulos de noticia, de foto, de publicidad y de infografía.",
+      "en_anuncio": "Formatos estándar que se adaptan a distintos soportes.",
+      "error": "Módulos incompatibles que obligan a reiniciar el diseño en cada página.",
+      "fuentes": [
+        "s02",
+        "s03",
+        "s09"
+      ]
+    },
+    {
+      "id": "espacio-blanco",
+      "numero": "09",
+      "nombre": "Espacio en blanco",
+      "definicion": "El vacío es material activo: separa, jerarquiza y da respiro a la lectura.",
+      "en_pagina": "Márgenes generosos y aire alrededor del titular.",
+      "en_anuncio": "El blanco aísla el producto y aumenta su percepción de valor.",
+      "error": "Miedo al blanco: la página se llena y el mensaje se diluye.",
+      "fuentes": [
+        "s01",
+        "s07",
+        "s08"
+      ]
+    },
+    {
+      "id": "proporcion",
+      "numero": "10",
+      "nombre": "Proporción y escala",
+      "definicion": "Relacionar tamaños mediante una razón reconocible para que la página resulte armónica.",
+      "en_pagina": "Escala tipográfica y proporción entre mancha y márgenes.",
+      "en_anuncio": "Escala del producto frente al texto: el héroe se mide en centímetros.",
+      "error": "Medidas arbitrarias que rompen la armonía sin intención.",
+      "fuentes": [
+        "s01",
+        "s03",
+        "s08"
+      ]
+    },
+    {
+      "id": "unidad-variedad",
+      "numero": "11",
+      "nombre": "Unidad y variedad",
+      "definicion": "Sostener una identidad común mientras se introducen diferencias que mantienen el interés.",
+      "en_pagina": "Un sistema para toda la revista, con aperturas distintas por sección.",
+      "en_anuncio": "Una campaña reconocible con una ejecución distinta por soporte.",
+      "error": "Unidad monótona o variedad sin identidad.",
+      "fuentes": [
+        "s08",
+        "s02",
+        "s01"
+      ]
+    },
+    {
+      "id": "punto-focal",
+      "numero": "12",
+      "nombre": "Punto focal",
+      "definicion": "Establecer un único punto de entrada visual que organice el recorrido de lectura.",
+      "en_pagina": "La foto de apertura o el titular principal, nunca ambos con la misma fuerza.",
+      "en_anuncio": "El producto o el rostro; el resto acompaña.",
+      "error": "Tres focos compitiendo y ningún recorrido.",
+      "fuentes": [
+        "s01",
+        "s07",
+        "s08"
+      ]
+    },
+    {
+      "id": "legibilidad",
+      "numero": "13",
+      "nombre": "Legibilidad",
+      "definicion": "Asegurar que el texto pueda leerse con esfuerzo mínimo en su contexto de uso.",
+      "en_pagina": "Cuerpo suficiente, interlineado amplio, línea de 45 a 75 caracteres.",
+      "en_anuncio": "Una idea por línea; contraste alto; tamaño mínimo probado.",
+      "error": "Texto sobre imagen sin velo, o cuerpo demasiado pequeño.",
+      "fuentes": [
+        "s01",
+        "s03",
+        "s07"
+      ]
+    },
+    {
+      "id": "transgresion",
+      "numero": "14",
+      "nombre": "Transgresión",
+      "definicion": "Romper selectivamente una regla para crear sorpresa, siempre sobre un sistema reconocible.",
+      "en_pagina": "Una imagen que invade el margen o un titular que cruza la columna.",
+      "en_anuncio": "Un formato que se sale del marco convencional.",
+      "error": "Caos sin sistema: la ruptura se lee como descuido.",
+      "fuentes": [
+        "s01",
+        "s08"
+      ]
+    }
+  ],
+  "patrones": [
+    {
+      "id": "primera-plana",
+      "nombre": "Primera plana jerárquica",
+      "categoria": "periodico",
+      "subtitulo": "Cabecera, noticia principal y arquitectura de la portada",
+      "descripcion": "La portada del periódico es un mapa de importancia. La cabecera identifica; el titular principal abre; la imagen sostiene; las columnas desarrollan; la publicidad ocupa módulos periféricos sin romper la mancha.",
+      "cuando": "Diarios de información general y portadas de sección.",
+      "evitar": "Cuando se prioriza el impacto visual sobre la jerarquía de la noticia.",
+      "ratio": 0.7,
+      "columnas": 6,
+      "lectura": "descendente en F",
+      "specs": {
+        "margen": 4,
+        "medianil": 2,
+        "densidad": "media",
+        "retícula": "6 columnas + orejas"
+      },
+      "principios": [
+        "jerarquia",
+        "punto-focal",
+        "reticula",
+        "proximidad"
+      ],
+      "teorias": [
+        "editorial-moderno",
+        "legibilidad"
+      ],
+      "fuentes": [
+        "s03",
+        "s01"
+      ],
+      "bloques": [
+        {
+          "t": "masthead",
+          "x": 4,
+          "y": 4,
+          "w": 92,
+          "h": 10
+        },
+        {
+          "t": "filete",
+          "x": 4,
+          "y": 16,
+          "w": 92,
+          "h": 0.8
+        },
+        {
+          "t": "titular",
+          "x": 4,
+          "y": 20,
+          "w": 64,
+          "h": 15
+        },
+        {
+          "t": "texto",
+          "x": 4,
+          "y": 38,
+          "w": 64,
+          "h": 6,
+          "n": 2
+        },
+        {
+          "t": "imagen",
+          "x": 4,
+          "y": 46,
+          "w": 64,
+          "h": 42
+        },
+        {
+          "t": "texto",
+          "x": 4,
+          "y": 91,
+          "w": 30,
+          "h": 43,
+          "n": 9
+        },
+        {
+          "t": "texto",
+          "x": 35,
+          "y": 91,
+          "w": 30,
+          "h": 43,
+          "n": 9
+        },
+        {
+          "t": "publicidad",
+          "x": 70,
+          "y": 20,
+          "w": 26,
+          "h": 20
+        },
+        {
+          "t": "publicidad",
+          "x": 70,
+          "y": 44,
+          "w": 26,
+          "h": 44
+        },
+        {
+          "t": "dato",
+          "x": 70,
+          "y": 92,
+          "w": 26,
+          "h": 16
+        },
+        {
+          "t": "publicidad",
+          "x": 4,
+          "y": 136,
+          "w": 92,
+          "h": 4
+        },
+        {
+          "t": "folio",
+          "x": 4,
+          "y": 140,
+          "w": 18,
+          "h": 1
+        }
+      ]
+    },
+    {
+      "id": "piramide-invertida",
+      "nombre": "Pirámide invertida visual",
+      "categoria": "periodico",
+      "subtitulo": "Del golpe de titular al detalle en columnas",
+      "descripcion": "Traslada la estructura de la noticia a la página: lo más importante ocupa el mayor espacio y el mayor contraste; el desarrollo se estrecha hacia columnas regulares. El lector puede abandonar en cualquier nivel sin perder lo esencial.",
+      "cuando": "Noticia dura, coberturas de última hora y páginas de actualidad.",
+      "evitar": "Reportajes de largo aliento que necesitan un ritmo más pausado.",
+      "ratio": 0.7,
+      "columnas": 6,
+      "lectura": "descendente",
+      "specs": {
+        "margen": 4,
+        "medianil": 3,
+        "densidad": "media",
+        "retícula": "6 columnas"
+      },
+      "principios": [
+        "jerarquia",
+        "contraste",
+        "legibilidad"
+      ],
+      "teorias": [
+        "editorial-moderno",
+        "legibilidad"
+      ],
+      "fuentes": [
+        "s03",
+        "s01"
+      ],
+      "bloques": [
+        {
+          "t": "masthead",
+          "x": 4,
+          "y": 3,
+          "w": 92,
+          "h": 8
+        },
+        {
+          "t": "titular",
+          "x": 4,
+          "y": 14,
+          "w": 68,
+          "h": 16
+        },
+        {
+          "t": "texto",
+          "x": 4,
+          "y": 33,
+          "w": 68,
+          "h": 6,
+          "n": 2
+        },
+        {
+          "t": "imagen",
+          "x": 4,
+          "y": 42,
+          "w": 68,
+          "h": 38
+        },
+        {
+          "t": "texto",
+          "x": 4,
+          "y": 84,
+          "w": 32,
+          "h": 50,
+          "n": 11
+        },
+        {
+          "t": "texto",
+          "x": 39,
+          "y": 84,
+          "w": 32,
+          "h": 50,
+          "n": 11
+        },
+        {
+          "t": "publicidad",
+          "x": 74,
+          "y": 14,
+          "w": 22,
+          "h": 24
+        },
+        {
+          "t": "dato",
+          "x": 74,
+          "y": 41,
+          "w": 22,
+          "h": 16
+        },
+        {
+          "t": "publicidad",
+          "x": 74,
+          "y": 60,
+          "w": 22,
+          "h": 28
+        },
+        {
+          "t": "publicidad",
+          "x": 74,
+          "y": 91,
+          "w": 22,
+          "h": 20
+        }
+      ]
+    },
+    {
+      "id": "tronco-columnas",
+      "nombre": "Tronco de columnas",
+      "categoria": "periodico",
+      "subtitulo": "Cinco o más columnas y titulares en escalera",
+      "descripcion": "La página interior se organiza en columnas verticales de igual ancho. Cada noticia ocupa una o varias columnas y los titulares se escalonan en la parte superior. Los filetes horizontales separan bloques sin necesidad de recuadros.",
+      "cuando": "Páginas interiores de información y secciones de servicios.",
+      "evitar": "Piezas con muchas imágenes grandes: fuerzan a romper el tronco.",
+      "ratio": 0.7,
+      "columnas": 5,
+      "lectura": "en columnas",
+      "specs": {
+        "margen": 4,
+        "medianil": 2,
+        "densidad": "alta",
+        "retícula": "5 columnas"
+      },
+      "principios": [
+        "reticula",
+        "alineacion",
+        "repeticion"
+      ],
+      "teorias": [
+        "editorial-moderno",
+        "suiza"
+      ],
+      "fuentes": [
+        "s03",
+        "s01"
+      ],
+      "bloques": [
+        {
+          "t": "masthead",
+          "x": 4,
+          "y": 3,
+          "w": 92,
+          "h": 8
+        },
+        {
+          "t": "filete",
+          "x": 4,
+          "y": 13,
+          "w": 92,
+          "h": 0.6
+        },
+        {
+          "t": "titular",
+          "x": 4,
+          "y": 17,
+          "w": 58,
+          "h": 10
+        },
+        {
+          "t": "imagen",
+          "x": 64,
+          "y": 17,
+          "w": 32,
+          "h": 24
+        },
+        {
+          "t": "texto",
+          "x": 4,
+          "y": 31,
+          "w": 16.8,
+          "h": 84,
+          "n": 15
+        },
+        {
+          "t": "texto",
+          "x": 22.8,
+          "y": 31,
+          "w": 16.8,
+          "h": 84,
+          "n": 15
+        },
+        {
+          "t": "texto",
+          "x": 41.6,
+          "y": 31,
+          "w": 16.8,
+          "h": 84,
+          "n": 15
+        },
+        {
+          "t": "texto",
+          "x": 60.4,
+          "y": 31,
+          "w": 16.8,
+          "h": 84,
+          "n": 15
+        },
+        {
+          "t": "texto",
+          "x": 79.2,
+          "y": 31,
+          "w": 16.8,
+          "h": 84,
+          "n": 15
+        },
+        {
+          "t": "publicidad",
+          "x": 4,
+          "y": 120,
+          "w": 92,
+          "h": 14
+        }
+      ]
+    },
+    {
+      "id": "pagina-opinion",
+      "nombre": "Página de opinión",
+      "categoria": "periodico",
+      "subtitulo": "Columnistas, caricatura y jerarquía de firma",
+      "descripcion": "La opinión se organiza por firmas y no por noticias. La caricatura o la ilustración abren el debate; las columnas de autor se distinguen por la firma y por un tratamiento tipográfico propio. El editorial ocupa un lugar fijo y reconocible.",
+      "cuando": "Secciones de opinión, editorial y análisis.",
+      "evitar": "Páginas de información pura donde la firma no aporta.",
+      "ratio": 0.7,
+      "columnas": 3,
+      "lectura": "por bloques de autor",
+      "specs": {
+        "margen": 5,
+        "medianil": 4,
+        "densidad": "media",
+        "retícula": "3 columnas"
+      },
+      "principios": [
+        "jerarquia",
+        "proximidad",
+        "espacio-blanco"
+      ],
+      "teorias": [
+        "editorial-moderno",
+        "legibilidad"
+      ],
+      "fuentes": [
+        "s03",
+        "s07"
+      ],
+      "bloques": [
+        {
+          "t": "masthead",
+          "x": 4,
+          "y": 4,
+          "w": 58,
+          "h": 6
+        },
+        {
+          "t": "dato",
+          "x": 68,
+          "y": 4,
+          "w": 28,
+          "h": 10
+        },
+        {
+          "t": "titular",
+          "x": 4,
+          "y": 15,
+          "w": 58,
+          "h": 8
+        },
+        {
+          "t": "imagen",
+          "x": 4,
+          "y": 27,
+          "w": 26,
+          "h": 26
+        },
+        {
+          "t": "texto",
+          "x": 33,
+          "y": 27,
+          "w": 31,
+          "h": 12,
+          "n": 3
+        },
+        {
+          "t": "texto",
+          "x": 4,
+          "y": 58,
+          "w": 28,
+          "h": 62,
+          "n": 13
+        },
+        {
+          "t": "texto",
+          "x": 34,
+          "y": 58,
+          "w": 28,
+          "h": 62,
+          "n": 13
+        },
+        {
+          "t": "texto",
+          "x": 64,
+          "y": 58,
+          "w": 32,
+          "h": 62,
+          "n": 13
+        },
+        {
+          "t": "cita",
+          "x": 64,
+          "y": 27,
+          "w": 32,
+          "h": 26
+        },
+        {
+          "t": "publicidad",
+          "x": 4,
+          "y": 125,
+          "w": 92,
+          "h": 10
+        }
+      ]
+    },
+    {
+      "id": "doble-pagina-periodico",
+      "nombre": "Doble página de actualidad",
+      "categoria": "periodico",
+      "subtitulo": "Dos páginas que se leen como una sola unidad",
+      "descripcion": "La doble página se diseña como un plano continuo: una imagen a sangre puede cruzar el pliegue y el titular se coloca en el eje de lectura. El lector percibe primero la mancha completa y después entra por la página izquierda.",
+      "cuando": "Coberturas especiales, anuarios y segundas páginas.",
+      "evitar": "Cuando el pliegue corta un rostro o un titular sin intención.",
+      "ratio": 1.45,
+      "columnas": 8,
+      "lectura": "izquierda a derecha",
+      "specs": {
+        "margen": 4,
+        "medianil": 3,
+        "densidad": "media",
+        "retícula": "8 columnas (4+4)"
+      },
+      "principios": [
+        "unidad-variedad",
+        "contraste",
+        "punto-focal"
+      ],
+      "teorias": [
+        "editorial-moderno",
+        "composicion-visual"
+      ],
+      "fuentes": [
+        "s03",
+        "s01"
+      ],
+      "bloques": [
+        {
+          "t": "titular",
+          "x": 3,
+          "y": 4,
+          "w": 44,
+          "h": 11
+        },
+        {
+          "t": "imagen",
+          "x": 3,
+          "y": 17,
+          "w": 44,
+          "h": 26
+        },
+        {
+          "t": "texto",
+          "x": 3,
+          "y": 45,
+          "w": 21,
+          "h": 21,
+          "n": 6
+        },
+        {
+          "t": "texto",
+          "x": 26,
+          "y": 45,
+          "w": 21,
+          "h": 21,
+          "n": 6
+        },
+        {
+          "t": "titular",
+          "x": 53,
+          "y": 4,
+          "w": 44,
+          "h": 8
+        },
+        {
+          "t": "texto",
+          "x": 53,
+          "y": 14,
+          "w": 21,
+          "h": 28,
+          "n": 8
+        },
+        {
+          "t": "imagen",
+          "x": 76,
+          "y": 14,
+          "w": 21,
+          "h": 22
+        },
+        {
+          "t": "publicidad",
+          "x": 53,
+          "y": 44,
+          "w": 44,
+          "h": 10
+        },
+        {
+          "t": "publicidad",
+          "x": 76,
+          "y": 38,
+          "w": 21,
+          "h": 16
+        },
+        {
+          "t": "lineav",
+          "x": 50,
+          "y": 4,
+          "w": 0.5,
+          "h": 61
+        }
+      ]
+    },
+    {
+      "id": "modulo-publicitario",
+      "nombre": "Módulo publicitario integrado",
+      "categoria": "periodico",
+      "subtitulo": "La publicidad como módulo de la retícula",
+      "descripcion": "Los anuncios no se superponen a la página: ocupan módulos de la misma retícula que el contenido. Robapáginas, faldón y oreja tienen medidas normalizadas y se alinean a las columnas, de modo que la mancha conserva su orden.",
+      "cuando": "Páginas con alta carga publicitaria y revistas de anuncios clasificados.",
+      "evitar": "Cuando el anuncio compite con el titular principal en peso visual.",
+      "ratio": 0.7,
+      "columnas": 6,
+      "lectura": "perimetral",
+      "specs": {
+        "margen": 4,
+        "medianil": 2,
+        "densidad": "alta",
+        "retícula": "6 columnas + módulos"
+      },
+      "principios": [
+        "reticula",
+        "modularidad",
+        "proximidad"
+      ],
+      "teorias": [
+        "editorial-moderno",
+        "ulm"
+      ],
+      "fuentes": [
+        "s03",
+        "s01"
+      ],
+      "bloques": [
+        {
+          "t": "masthead",
+          "x": 4,
+          "y": 4,
+          "w": 92,
+          "h": 8
+        },
+        {
+          "t": "texto",
+          "x": 4,
+          "y": 16,
+          "w": 42,
+          "h": 18,
+          "n": 4
+        },
+        {
+          "t": "imagen",
+          "x": 50,
+          "y": 16,
+          "w": 46,
+          "h": 26
+        },
+        {
+          "t": "publicidad",
+          "x": 4,
+          "y": 38,
+          "w": 42,
+          "h": 20
+        },
+        {
+          "t": "texto",
+          "x": 50,
+          "y": 46,
+          "w": 46,
+          "h": 28,
+          "n": 7
+        },
+        {
+          "t": "imagen",
+          "x": 4,
+          "y": 62,
+          "w": 42,
+          "h": 28
+        },
+        {
+          "t": "texto",
+          "x": 50,
+          "y": 78,
+          "w": 46,
+          "h": 28,
+          "n": 7
+        },
+        {
+          "t": "publicidad",
+          "x": 4,
+          "y": 94,
+          "w": 92,
+          "h": 14
+        },
+        {
+          "t": "texto",
+          "x": 4,
+          "y": 112,
+          "w": 92,
+          "h": 22,
+          "n": 5
+        }
+      ]
+    },
+    {
+      "id": "portada-revista",
+      "nombre": "Portada de revista",
+      "categoria": "revista",
+      "subtitulo": "Una sola imagen, una promesa y el nombre de la marca",
+      "descripcion": "La portada es un anuncio de sí misma. La cabecera se mantiene estable número a número; la imagen ocupa el mayor espacio; los titulares de cubierta se agrupan en una banda lateral. Debe funcionar a tamaño de quiosco y en miniatura digital.",
+      "cuando": "Publicaciones periódicas con identidad de marca fuerte.",
+      "evitar": "Portadas con cinco titulares del mismo peso y una imagen que no se lee.",
+      "ratio": 0.72,
+      "columnas": 4,
+      "lectura": "centrípeta",
+      "specs": {
+        "margen": 6,
+        "medianil": 3,
+        "densidad": "baja",
+        "retícula": "4 columnas"
+      },
+      "principios": [
+        "punto-focal",
+        "jerarquia",
+        "espacio-blanco"
+      ],
+      "teorias": [
+        "suiza",
+        "composicion-visual"
+      ],
+      "fuentes": [
+        "s01",
+        "s03"
+      ],
+      "bloques": [
+        {
+          "t": "imagen",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "h": 139
+        },
+        {
+          "t": "masthead",
+          "x": 6,
+          "y": 6,
+          "w": 88,
+          "h": 12
+        },
+        {
+          "t": "texto",
+          "x": 6,
+          "y": 28,
+          "w": 34,
+          "h": 22,
+          "n": 4
+        },
+        {
+          "t": "titular",
+          "x": 6,
+          "y": 92,
+          "w": 58,
+          "h": 18
+        },
+        {
+          "t": "texto",
+          "x": 6,
+          "y": 114,
+          "w": 42,
+          "h": 8,
+          "n": 2
+        },
+        {
+          "t": "logo",
+          "x": 83,
+          "y": 124,
+          "w": 11,
+          "h": 9
+        }
+      ]
+    },
+    {
+      "id": "apertura-reportaje",
+      "nombre": "Apertura de reportaje",
+      "categoria": "revista",
+      "subtitulo": "Imagen a sangre, titular contenido y entradilla",
+      "descripcion": "El reportaje se abre con una imagen que ocupa una página completa o cruza el pliegue. El titular se coloca en la zona de menor conflicto y la entradilla da el tono. El cuerpo entra después, en columnas más estrechas que la imagen.",
+      "cuando": "Reportajes de moda, fotoperiodismo y perfiles.",
+      "evitar": "Cuando la imagen no tiene un punto de reposo donde colocar el texto.",
+      "ratio": 1.45,
+      "columnas": 8,
+      "lectura": "imagen primero",
+      "specs": {
+        "margen": 4,
+        "medianil": 4,
+        "densidad": "baja",
+        "retícula": "8 columnas"
+      },
+      "principios": [
+        "punto-focal",
+        "contraste",
+        "espacio-blanco"
+      ],
+      "teorias": [
+        "composicion-visual",
+        "ruptura"
+      ],
+      "fuentes": [
+        "s01",
+        "s08"
+      ],
+      "bloques": [
+        {
+          "t": "imagen",
+          "x": 47,
+          "y": 0,
+          "w": 53,
+          "h": 69
+        },
+        {
+          "t": "titular",
+          "x": 5,
+          "y": 6,
+          "w": 38,
+          "h": 17
+        },
+        {
+          "t": "texto",
+          "x": 5,
+          "y": 25,
+          "w": 36,
+          "h": 6,
+          "n": 2
+        },
+        {
+          "t": "texto",
+          "x": 5,
+          "y": 34,
+          "w": 18,
+          "h": 28,
+          "n": 8
+        },
+        {
+          "t": "texto",
+          "x": 25,
+          "y": 34,
+          "w": 18,
+          "h": 28,
+          "n": 8
+        },
+        {
+          "t": "texto",
+          "x": 5,
+          "y": 64,
+          "w": 38,
+          "h": 2,
+          "n": 1
+        },
+        {
+          "t": "lineav",
+          "x": 46,
+          "y": 0,
+          "w": 0.5,
+          "h": 69
+        }
+      ]
+    },
+    {
+      "id": "reticula-12",
+      "nombre": "Retícula de 12 columnas",
+      "categoria": "revista",
+      "subtitulo": "El sistema flexible para toda la publicación",
+      "descripcion": "Doce columnas permiten dividir la página en mitades, tercios y cuartos sin perder el eje. Un reportaje puede combinar seis columnas de texto, tres de imagen lateral y un módulo de dato. Es la retícula que hace posible la variedad dentro de la unidad.",
+      "cuando": "Revistas de información, cultura y corporativas.",
+      "evitar": "Publicaciones de una sola columna o de formato muy pequeño.",
+      "ratio": 0.75,
+      "columnas": 12,
+      "lectura": "modular",
+      "specs": {
+        "margen": 6,
+        "medianil": 1.5,
+        "densidad": "media",
+        "retícula": "12 columnas"
+      },
+      "principios": [
+        "reticula",
+        "modularidad",
+        "unidad-variedad"
+      ],
+      "teorias": [
+        "suiza",
+        "ulm"
+      ],
+      "fuentes": [
+        "s01",
+        "s03"
+      ],
+      "bloques": [
+        {
+          "t": "vgrid",
+          "x": 6,
+          "y": 6,
+          "w": 88,
+          "h": 121,
+          "n": 12
+        },
+        {
+          "t": "imagen",
+          "x": 6,
+          "y": 6,
+          "w": 88,
+          "h": 38
+        },
+        {
+          "t": "titular",
+          "x": 6,
+          "y": 48,
+          "w": 60,
+          "h": 10
+        },
+        {
+          "t": "texto",
+          "x": 6,
+          "y": 61,
+          "w": 57,
+          "h": 62,
+          "n": 14
+        },
+        {
+          "t": "texto",
+          "x": 65,
+          "y": 61,
+          "w": 29,
+          "h": 28,
+          "n": 7
+        },
+        {
+          "t": "dato",
+          "x": 65,
+          "y": 92,
+          "w": 29,
+          "h": 14
+        },
+        {
+          "t": "publicidad",
+          "x": 65,
+          "y": 109,
+          "w": 29,
+          "h": 18
+        }
+      ]
+    },
+    {
+      "id": "feature-well",
+      "nombre": "Feature well",
+      "categoria": "revista",
+      "subtitulo": "El corazón de la revista: reportajes y dobles páginas",
+      "descripcion": "El bloque central de la revista alterna dobles páginas de reportaje con páginas de servicio. Cada apertura tiene un ritmo propio, pero comparte la retícula, la escala tipográfica y el tratamiento de imagen. La lectura se organiza en tres columnas con barra lateral.",
+      "cuando": "Revistas con secciones de reportajes y entrevistas.",
+      "evitar": "Cuando cada reportaje inventa una retícula distinta sin motivo.",
+      "ratio": 1.45,
+      "columnas": 8,
+      "lectura": "tres columnas + lateral",
+      "specs": {
+        "margen": 4,
+        "medianil": 3,
+        "densidad": "media",
+        "retícula": "3 columnas + sidebar"
+      },
+      "principios": [
+        "unidad-variedad",
+        "legibilidad",
+        "reticula"
+      ],
+      "teorias": [
+        "editorial-moderno",
+        "suiza"
+      ],
+      "fuentes": [
+        "s01",
+        "s03"
+      ],
+      "bloques": [
+        {
+          "t": "imagen",
+          "x": 52,
+          "y": 0,
+          "w": 48,
+          "h": 69
+        },
+        {
+          "t": "titular",
+          "x": 5,
+          "y": 5,
+          "w": 44,
+          "h": 12
+        },
+        {
+          "t": "texto",
+          "x": 5,
+          "y": 19,
+          "w": 22,
+          "h": 40,
+          "n": 11
+        },
+        {
+          "t": "texto",
+          "x": 29,
+          "y": 19,
+          "w": 19,
+          "h": 25,
+          "n": 7
+        },
+        {
+          "t": "cita",
+          "x": 29,
+          "y": 47,
+          "w": 19,
+          "h": 12
+        },
+        {
+          "t": "texto",
+          "x": 5,
+          "y": 62,
+          "w": 44,
+          "h": 2,
+          "n": 1
+        }
+      ]
+    },
+    {
+      "id": "cita-destacada",
+      "nombre": "Cita destacada",
+      "categoria": "revista",
+      "subtitulo": "El texto dialoga con su propio fragmento",
+      "descripcion": "Un fragmento del texto se amplía y se separa para dar ritmo a la lectura larga. La cita funciona como punto de descanso y como gancho de hojeo. Debe ser breve, legible a distancia y estar alineada a la retícula.",
+      "cuando": "Entrevistas, perfiles y reportajes de más de dos páginas.",
+      "evitar": "Citas que repiten literalmente el titular o compiten con él.",
+      "ratio": 0.75,
+      "columnas": 6,
+      "lectura": "lineal con pausas",
+      "specs": {
+        "margen": 6,
+        "medianil": 4,
+        "densidad": "media",
+        "retícula": "6 columnas"
+      },
+      "principios": [
+        "contraste",
+        "espacio-blanco",
+        "jerarquia"
+      ],
+      "teorias": [
+        "composicion-visual",
+        "legibilidad"
+      ],
+      "fuentes": [
+        "s01",
+        "s08"
+      ],
+      "bloques": [
+        {
+          "t": "imagen",
+          "x": 6,
+          "y": 6,
+          "w": 40,
+          "h": 34
+        },
+        {
+          "t": "titular",
+          "x": 50,
+          "y": 8,
+          "w": 44,
+          "h": 12
+        },
+        {
+          "t": "texto",
+          "x": 50,
+          "y": 22,
+          "w": 44,
+          "h": 10,
+          "n": 3
+        },
+        {
+          "t": "cita",
+          "x": 6,
+          "y": 46,
+          "w": 88,
+          "h": 26
+        },
+        {
+          "t": "texto",
+          "x": 6,
+          "y": 78,
+          "w": 42,
+          "h": 48,
+          "n": 11
+        },
+        {
+          "t": "texto",
+          "x": 52,
+          "y": 78,
+          "w": 42,
+          "h": 48,
+          "n": 11
+        },
+        {
+          "t": "folio",
+          "x": 6,
+          "y": 128,
+          "w": 20,
+          "h": 1
+        }
+      ]
+    },
+    {
+      "id": "collage-editorial",
+      "nombre": "Collage editorial",
+      "categoria": "revista",
+      "subtitulo": "Capas, recortes y tipografía sobre imagen",
+      "descripcion": "La página se construye por superposición: imágenes recortadas, tipografía que invade la fotografía y bloques de color. El orden no desaparece: se mantiene un eje y un punto focal mientras las capas crean profundidad.",
+      "cuando": "Moda, cultura, música y números especiales.",
+      "evitar": "Textos largos: el collage cansa en lecturas extensas.",
+      "ratio": 0.75,
+      "columnas": 6,
+      "lectura": "exploratoria",
+      "specs": {
+        "margen": 4,
+        "medianil": 3,
+        "densidad": "alta",
+        "retícula": "6 columnas"
+      },
+      "principios": [
+        "transgresion",
+        "contraste",
+        "punto-focal"
+      ],
+      "teorias": [
+        "ruptura",
+        "constructivismo"
+      ],
+      "fuentes": [
+        "s01",
+        "s08"
+      ],
+      "bloques": [
+        {
+          "t": "imagen",
+          "x": 6,
+          "y": 8,
+          "w": 52,
+          "h": 66,
+          "rot": -3
+        },
+        {
+          "t": "imagen",
+          "x": 42,
+          "y": 38,
+          "w": 50,
+          "h": 62,
+          "rot": 4
+        },
+        {
+          "t": "titular",
+          "x": 8,
+          "y": 80,
+          "w": 58,
+          "h": 16
+        },
+        {
+          "t": "texto",
+          "x": 8,
+          "y": 99,
+          "w": 34,
+          "h": 22,
+          "n": 5
+        },
+        {
+          "t": "logo",
+          "x": 72,
+          "y": 112,
+          "w": 20,
+          "h": 8
+        }
+      ]
+    },
+    {
+      "id": "infografia-pagina-completa",
+      "nombre": "Infografía a página completa",
+      "categoria": "revista",
+      "subtitulo": "El dato como imagen principal",
+      "descripcion": "Cuando la información es cuantitativa, el gráfico ocupa el lugar de la fotografía. Un titular interpreta, un subtítulo acota y la fuente cierra. La retícula se subordina a la lectura del dato: menos columnas, más eje horizontal.",
+      "cuando": "Ciencia, economía, elecciones y balances.",
+      "evitar": "Adornos estadísticos que oscurecen la comparación.",
+      "ratio": 1.45,
+      "columnas": 8,
+      "lectura": "dato primero",
+      "specs": {
+        "margen": 4,
+        "medianil": 4,
+        "densidad": "baja",
+        "retícula": "8 columnas"
+      },
+      "principios": [
+        "jerarquia",
+        "contraste",
+        "legibilidad"
+      ],
+      "teorias": [
+        "ulm",
+        "semiotica"
+      ],
+      "fuentes": [
+        "s03",
+        "s13"
+      ],
+      "bloques": [
+        {
+          "t": "titular",
+          "x": 5,
+          "y": 5,
+          "w": 60,
+          "h": 10
+        },
+        {
+          "t": "texto",
+          "x": 5,
+          "y": 17,
+          "w": 48,
+          "h": 6,
+          "n": 2
+        },
+        {
+          "t": "grafico",
+          "x": 5,
+          "y": 26,
+          "w": 60,
+          "h": 34
+        },
+        {
+          "t": "dato",
+          "x": 70,
+          "y": 26,
+          "w": 25,
+          "h": 14
+        },
+        {
+          "t": "texto",
+          "x": 70,
+          "y": 42,
+          "w": 25,
+          "h": 18,
+          "n": 4
+        },
+        {
+          "t": "texto",
+          "x": 5,
+          "y": 63,
+          "w": 40,
+          "h": 3,
+          "n": 1
+        }
+      ]
+    },
+    {
+      "id": "pagina-columnas",
+      "nombre": "Página de texto a columnas",
+      "categoria": "revista",
+      "subtitulo": "El cuerpo del reportaje, sostenido por la retícula",
+      "descripcion": "La página que más se repite en una revista: tres columnas de texto corrido, cintillo y folio en los bordes, una cita destacada que corta la columna central y, a veces, una capitular. No busca el impacto, sino que la lectura larga no se canse.",
+      "cuando": "Continuaciones de reportaje, entrevistas, cartas del editor y columnas de opinión.",
+      "evitar": "Aperturas o páginas que deben vender el tema de un vistazo.",
+      "ratio": 0.75,
+      "columnas": 3,
+      "lectura": "en columnas",
+      "specs": {
+        "margen": 6,
+        "medianil": 3.5,
+        "densidad": "alta",
+        "retícula": "3 columnas"
+      },
+      "principios": [
+        "reticula",
+        "legibilidad",
+        "repeticion",
+        "alineacion"
+      ],
+      "teorias": [
+        "suiza",
+        "legibilidad"
+      ],
+      "fuentes": [],
+      "bloques": [
+        {
+          "t": "folio",
+          "x": 6,
+          "y": 4,
+          "w": 18,
+          "h": 1
+        },
+        {
+          "t": "folio",
+          "x": 76,
+          "y": 4,
+          "w": 18,
+          "h": 1
+        },
+        {
+          "t": "filete",
+          "x": 6,
+          "y": 7,
+          "w": 88,
+          "h": 0
+        },
+        {
+          "t": "texto",
+          "x": 6,
+          "y": 10,
+          "w": 27,
+          "h": 116,
+          "n": 26
+        },
+        {
+          "t": "texto",
+          "x": 36.5,
+          "y": 10,
+          "w": 27,
+          "h": 46,
+          "n": 10
+        },
+        {
+          "t": "cita",
+          "x": 36.5,
+          "y": 59,
+          "w": 27,
+          "h": 16
+        },
+        {
+          "t": "texto",
+          "x": 36.5,
+          "y": 78,
+          "w": 27,
+          "h": 48,
+          "n": 11
+        },
+        {
+          "t": "texto",
+          "x": 67,
+          "y": 10,
+          "w": 27,
+          "h": 116,
+          "n": 26
+        },
+        {
+          "t": "folio",
+          "x": 6,
+          "y": 129,
+          "w": 20,
+          "h": 1
+        }
+      ],
+      "ejemplos": [
+        "computer-arts-2018-05 p21",
+        "computer-arts-2018-05 p76",
+        "gq-usa-2018-04 p88",
+        "gq-usa-2018-04 p142"
+      ],
+      "origen": "corpus",
+      "corpus": [
+        "computer-arts-2018-05",
+        "gq-usa-2018-04"
+      ]
+    },
+    {
+      "id": "apertura-sangre",
+      "nombre": "Apertura a sangre",
+      "categoria": "revista",
+      "subtitulo": "La foto ocupa la página; el texto se apoya en una esquina",
+      "descripcion": "Una fotografía o ilustración llena la página hasta el corte y el titular con su entradilla se coloca en la zona más tranquila de la imagen. A diferencia de la portada, no hay cabecera ni llamadas: es la puerta de un reportaje, un retrato o una serie de moda.",
+      "cuando": "Retratos, series de moda, aperturas de reportaje y páginas de imagen.",
+      "evitar": "Imágenes sin una zona limpia para el texto o temas que necesitan explicarse antes de mostrarse.",
+      "ratio": 0.75,
+      "columnas": 1,
+      "lectura": "imagen primero",
+      "specs": {
+        "margen": 6,
+        "medianil": 3,
+        "densidad": "baja",
+        "retícula": "imagen a sangre + bloque de texto"
+      },
+      "principios": [
+        "punto-focal",
+        "contraste",
+        "jerarquia"
+      ],
+      "teorias": [
+        "editorial-moderno",
+        "composicion-visual"
+      ],
+      "fuentes": [],
+      "bloques": [
+        {
+          "t": "imagen",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "h": 133.33
+        },
+        {
+          "t": "titular",
+          "x": 6,
+          "y": 96,
+          "w": 52,
+          "h": 14
+        },
+        {
+          "t": "texto",
+          "x": 6,
+          "y": 112,
+          "w": 44,
+          "h": 7,
+          "n": 3
+        },
+        {
+          "t": "folio",
+          "x": 6,
+          "y": 128,
+          "w": 20,
+          "h": 1
+        }
+      ],
+      "ejemplos": [
+        "computer-arts-2018-05 p27",
+        "computer-arts-2018-05 p88",
+        "gq-usa-2018-04 p118",
+        "gq-usa-2018-04 p124"
+      ],
+      "origen": "corpus",
+      "corpus": [
+        "computer-arts-2018-05",
+        "gq-usa-2018-04"
+      ]
+    },
+    {
+      "id": "sumario",
+      "nombre": "Sumario",
+      "categoria": "revista",
+      "subtitulo": "Una imagen que promete y una columna que ordena",
+      "descripcion": "El índice de la revista combina una imagen de la nota principal con una columna de entradas numeradas: número de página destacado, título breve y una línea de resumen. Sirve de mapa y, a la vez, de segunda portada.",
+      "cuando": "Índices de revista, catálogos y publicaciones con secciones fijas.",
+      "evitar": "Publicaciones de pocas páginas, donde el índice no aporta.",
+      "ratio": 0.75,
+      "columnas": 2,
+      "lectura": "por índice",
+      "specs": {
+        "margen": 6,
+        "medianil": 4,
+        "densidad": "media",
+        "retícula": "imagen + columna de índice"
+      },
+      "principios": [
+        "jerarquia",
+        "repeticion",
+        "proximidad",
+        "alineacion"
+      ],
+      "teorias": [
+        "editorial-moderno",
+        "gestalt"
+      ],
+      "fuentes": [],
+      "bloques": [
+        {
+          "t": "folio",
+          "x": 6,
+          "y": 4,
+          "w": 18,
+          "h": 1
+        },
+        {
+          "t": "titular",
+          "x": 62,
+          "y": 6,
+          "w": 32,
+          "h": 6
+        },
+        {
+          "t": "imagen",
+          "x": 6,
+          "y": 9,
+          "w": 52,
+          "h": 74
+        },
+        {
+          "t": "dato",
+          "x": 62,
+          "y": 16,
+          "w": 8,
+          "h": 5
+        },
+        {
+          "t": "texto",
+          "x": 71,
+          "y": 16,
+          "w": 23,
+          "h": 12,
+          "n": 4
+        },
+        {
+          "t": "dato",
+          "x": 62,
+          "y": 32,
+          "w": 8,
+          "h": 5
+        },
+        {
+          "t": "texto",
+          "x": 71,
+          "y": 32,
+          "w": 23,
+          "h": 12,
+          "n": 4
+        },
+        {
+          "t": "dato",
+          "x": 62,
+          "y": 48,
+          "w": 8,
+          "h": 5
+        },
+        {
+          "t": "texto",
+          "x": 71,
+          "y": 48,
+          "w": 23,
+          "h": 12,
+          "n": 4
+        },
+        {
+          "t": "dato",
+          "x": 62,
+          "y": 64,
+          "w": 8,
+          "h": 5
+        },
+        {
+          "t": "texto",
+          "x": 71,
+          "y": 64,
+          "w": 23,
+          "h": 12,
+          "n": 4
+        },
+        {
+          "t": "imagen",
+          "x": 6,
+          "y": 86,
+          "w": 25,
+          "h": 20
+        },
+        {
+          "t": "texto",
+          "x": 6,
+          "y": 108,
+          "w": 25,
+          "h": 10,
+          "n": 3
+        },
+        {
+          "t": "imagen",
+          "x": 33,
+          "y": 86,
+          "w": 25,
+          "h": 20
+        },
+        {
+          "t": "texto",
+          "x": 33,
+          "y": 108,
+          "w": 25,
+          "h": 10,
+          "n": 3
+        },
+        {
+          "t": "texto",
+          "x": 62,
+          "y": 82,
+          "w": 32,
+          "h": 42,
+          "n": 10
+        },
+        {
+          "t": "folio",
+          "x": 6,
+          "y": 129,
+          "w": 20,
+          "h": 1
+        }
+      ],
+      "ejemplos": [
+        "computer-arts-2018-05 p9",
+        "gq-usa-2018-04 p16"
+      ],
+      "origen": "corpus",
+      "corpus": [
+        "computer-arts-2018-05",
+        "gq-usa-2018-04"
+      ]
+    },
+    {
+      "id": "galeria-modular",
+      "nombre": "Galería modular",
+      "categoria": "revista",
+      "subtitulo": "Imágenes en módulos iguales, cada una con su pie",
+      "descripcion": "Una rejilla de imágenes del mismo tamaño, cada una con un pie breve, bajo un titular corto. Es la forma de las páginas de producto, novedades, portafolios y selecciones: el ojo compara módulo a módulo y la repetición crea el orden.",
+      "cuando": "Novedades, productos, portafolios, selecciones de moda y diarios de proyecto.",
+      "evitar": "Temas con una sola imagen fuerte o textos largos.",
+      "ratio": 0.75,
+      "columnas": 3,
+      "lectura": "modular",
+      "specs": {
+        "margen": 6,
+        "medianil": 3.5,
+        "densidad": "media",
+        "retícula": "3 columnas modulares"
+      },
+      "principios": [
+        "modularidad",
+        "repeticion",
+        "proximidad"
+      ],
+      "teorias": [
+        "suiza",
+        "gestalt"
+      ],
+      "fuentes": [],
+      "bloques": [
+        {
+          "t": "folio",
+          "x": 6,
+          "y": 4,
+          "w": 18,
+          "h": 1
+        },
+        {
+          "t": "titular",
+          "x": 6,
+          "y": 8,
+          "w": 56,
+          "h": 9
+        },
+        {
+          "t": "texto",
+          "x": 6,
+          "y": 19,
+          "w": 56,
+          "h": 6,
+          "n": 2
+        },
+        {
+          "t": "imagen",
+          "x": 6,
+          "y": 28,
+          "w": 27,
+          "h": 26
+        },
+        {
+          "t": "imagen",
+          "x": 36.5,
+          "y": 28,
+          "w": 27,
+          "h": 26
+        },
+        {
+          "t": "imagen",
+          "x": 67,
+          "y": 28,
+          "w": 27,
+          "h": 26
+        },
+        {
+          "t": "texto",
+          "x": 6,
+          "y": 55,
+          "w": 27,
+          "h": 6,
+          "n": 2
+        },
+        {
+          "t": "texto",
+          "x": 36.5,
+          "y": 55,
+          "w": 27,
+          "h": 6,
+          "n": 2
+        },
+        {
+          "t": "texto",
+          "x": 67,
+          "y": 55,
+          "w": 27,
+          "h": 6,
+          "n": 2
+        },
+        {
+          "t": "imagen",
+          "x": 6,
+          "y": 65,
+          "w": 27,
+          "h": 26
+        },
+        {
+          "t": "imagen",
+          "x": 36.5,
+          "y": 65,
+          "w": 27,
+          "h": 26
+        },
+        {
+          "t": "imagen",
+          "x": 67,
+          "y": 65,
+          "w": 27,
+          "h": 26
+        },
+        {
+          "t": "texto",
+          "x": 6,
+          "y": 92,
+          "w": 27,
+          "h": 6,
+          "n": 2
+        },
+        {
+          "t": "texto",
+          "x": 36.5,
+          "y": 92,
+          "w": 27,
+          "h": 6,
+          "n": 2
+        },
+        {
+          "t": "texto",
+          "x": 67,
+          "y": 92,
+          "w": 27,
+          "h": 6,
+          "n": 2
+        },
+        {
+          "t": "texto",
+          "x": 6,
+          "y": 102,
+          "w": 58,
+          "h": 24,
+          "n": 6
+        },
+        {
+          "t": "folio",
+          "x": 6,
+          "y": 129,
+          "w": 20,
+          "h": 1
+        }
+      ],
+      "ejemplos": [
+        "computer-arts-2018-05 p18",
+        "computer-arts-2018-05 p36",
+        "gq-usa-2018-04 p28"
+      ],
+      "origen": "corpus",
+      "corpus": [
+        "computer-arts-2018-05",
+        "gq-usa-2018-04"
+      ]
+    },
+    {
+      "id": "regla-tercios",
+      "nombre": "Regla de tercios",
+      "categoria": "anuncio",
+      "subtitulo": "Imagen, titular y cierre en tres bandas",
+      "descripcion": "El anuncio se divide en tres campos: la imagen ocupa el tercio superior o los dos tercios, el titular traduce el beneficio y el cierre concentra marca y llamada a la acción. Es la estructura más probada para anuncios de página completa.",
+      "cuando": "Anuncios de producto, lanzamientos y gráfica de prensa.",
+      "evitar": "Cuando la imagen necesita más de dos tercios para respirar.",
+      "ratio": 0.75,
+      "columnas": 4,
+      "lectura": "descendente",
+      "specs": {
+        "margen": 5,
+        "medianil": 4,
+        "densidad": "media",
+        "retícula": "4 columnas"
+      },
+      "principios": [
+        "jerarquia",
+        "contraste",
+        "punto-focal"
+      ],
+      "teorias": [
+        "editorial-moderno",
+        "legibilidad"
+      ],
+      "fuentes": [
+        "s07",
+        "s06",
+        "s01"
+      ],
+      "bloques": [
+        {
+          "t": "imagen",
+          "x": 5,
+          "y": 5,
+          "w": 90,
+          "h": 60
+        },
+        {
+          "t": "titular",
+          "x": 5,
+          "y": 70,
+          "w": 90,
+          "h": 14
+        },
+        {
+          "t": "texto",
+          "x": 5,
+          "y": 87,
+          "w": 58,
+          "h": 12,
+          "n": 3
+        },
+        {
+          "t": "cta",
+          "x": 68,
+          "y": 88,
+          "w": 27,
+          "h": 9
+        },
+        {
+          "t": "logo",
+          "x": 5,
+          "y": 106,
+          "w": 26,
+          "h": 8
+        },
+        {
+          "t": "texto",
+          "x": 40,
+          "y": 108,
+          "w": 40,
+          "h": 4,
+          "n": 1
+        }
+      ]
+    },
+    {
+      "id": "z-pattern",
+      "nombre": "Patrón en Z",
+      "categoria": "anuncio",
+      "subtitulo": "Marca arriba, producto en diagonal, cierre abajo",
+      "descripcion": "El ojo recorre la pieza en Z: marca en la esquina superior izquierda, imagen o producto en el centro, llamada a la acción en la esquina inferior derecha. Es una estructura de lectura rápida para anuncios de una sola idea.",
+      "cuando": "Anuncios digitales, carteles y piezas de una sola imagen.",
+      "evitar": "Cuando hay mucho texto: la Z se rompe y el lector no sabe dónde seguir.",
+      "ratio": 0.75,
+      "columnas": 4,
+      "lectura": "Z",
+      "specs": {
+        "margen": 6,
+        "medianil": 4,
+        "densidad": "baja",
+        "retícula": "4 columnas"
+      },
+      "principios": [
+        "punto-focal",
+        "alineacion",
+        "contraste"
+      ],
+      "teorias": [
+        "legibilidad",
+        "composicion-visual"
+      ],
+      "fuentes": [
+        "s07",
+        "s06"
+      ],
+      "bloques": [
+        {
+          "t": "logo",
+          "x": 6,
+          "y": 6,
+          "w": 22,
+          "h": 8
+        },
+        {
+          "t": "titular",
+          "x": 55,
+          "y": 10,
+          "w": 39,
+          "h": 18
+        },
+        {
+          "t": "imagen",
+          "x": 10,
+          "y": 32,
+          "w": 80,
+          "h": 54
+        },
+        {
+          "t": "texto",
+          "x": 6,
+          "y": 90,
+          "w": 44,
+          "h": 12,
+          "n": 3
+        },
+        {
+          "t": "cta",
+          "x": 66,
+          "y": 106,
+          "w": 28,
+          "h": 10
+        },
+        {
+          "t": "texto",
+          "x": 6,
+          "y": 110,
+          "w": 40,
+          "h": 4,
+          "n": 1
+        }
+      ]
+    },
+    {
+      "id": "f-pattern",
+      "nombre": "Patrón en F",
+      "categoria": "anuncio",
+      "subtitulo": "Titular fuerte y lectura vertical",
+      "descripcion": "Para piezas con más texto, el ojo recorre primero la banda superior y después baja por la izquierda. El titular ocupa el ancho completo; el cuerpo se alinea a la izquierda y la imagen se reserva a la derecha. El CTA cierra la columna.",
+      "cuando": "Anuncios editoriales, publirreportajes y piezas con argumentario.",
+      "evitar": "Textos centrados o justificados que rompen la línea de retorno.",
+      "ratio": 0.75,
+      "columnas": 4,
+      "lectura": "F",
+      "specs": {
+        "margen": 6,
+        "medianil": 3,
+        "densidad": "alta",
+        "retícula": "4 columnas"
+      },
+      "principios": [
+        "legibilidad",
+        "alineacion",
+        "jerarquia"
+      ],
+      "teorias": [
+        "legibilidad",
+        "suiza"
+      ],
+      "fuentes": [
+        "s07",
+        "s01"
+      ],
+      "bloques": [
+        {
+          "t": "titular",
+          "x": 6,
+          "y": 6,
+          "w": 88,
+          "h": 18
+        },
+        {
+          "t": "texto",
+          "x": 6,
+          "y": 28,
+          "w": 50,
+          "h": 52,
+          "n": 13
+        },
+        {
+          "t": "imagen",
+          "x": 62,
+          "y": 28,
+          "w": 32,
+          "h": 40
+        },
+        {
+          "t": "texto",
+          "x": 62,
+          "y": 72,
+          "w": 32,
+          "h": 10,
+          "n": 2
+        },
+        {
+          "t": "cta",
+          "x": 6,
+          "y": 86,
+          "w": 30,
+          "h": 10
+        },
+        {
+          "t": "logo",
+          "x": 70,
+          "y": 88,
+          "w": 24,
+          "h": 7
+        }
+      ]
+    },
+    {
+      "id": "tipografico",
+      "nombre": "Anuncio tipográfico",
+      "categoria": "anuncio",
+      "subtitulo": "La palabra como imagen principal",
+      "descripcion": "Cuando no hay fotografía, la tipografía ocupa el lugar del héroe. El titular se compone a gran escala, con una familia expresiva y un juego de pesos. La imagen, si existe, es un acento secundario. La marca y el CTA se mantienen pequeños para no competir.",
+      "cuando": "Campañas de concepto, marcas culturales y anuncios de opinión.",
+      "evitar": "Cuando el titular es largo o necesita explicación.",
+      "ratio": 0.75,
+      "columnas": 4,
+      "lectura": "titular primero",
+      "specs": {
+        "margen": 5,
+        "medianil": 4,
+        "densidad": "baja",
+        "retícula": "4 columnas"
+      },
+      "principios": [
+        "contraste",
+        "punto-focal",
+        "transgresion"
+      ],
+      "teorias": [
+        "constructivismo",
+        "ruptura"
+      ],
+      "fuentes": [
+        "s01",
+        "s04",
+        "s06"
+      ],
+      "bloques": [
+        {
+          "t": "titular",
+          "x": 5,
+          "y": 10,
+          "w": 90,
+          "h": 60
+        },
+        {
+          "t": "texto",
+          "x": 5,
+          "y": 76,
+          "w": 44,
+          "h": 10,
+          "n": 2
+        },
+        {
+          "t": "imagen",
+          "x": 58,
+          "y": 74,
+          "w": 36,
+          "h": 30
+        },
+        {
+          "t": "logo",
+          "x": 5,
+          "y": 108,
+          "w": 22,
+          "h": 8
+        },
+        {
+          "t": "cta",
+          "x": 70,
+          "y": 108,
+          "w": 24,
+          "h": 10
+        }
+      ]
+    },
+    {
+      "id": "split",
+      "nombre": "Split screen",
+      "categoria": "anuncio",
+      "subtitulo": "Dos mitades, una comparación",
+      "descripcion": "La pieza se divide vertical u horizontalmente en dos campos que se comparan o se complementan: producto y beneficio, antes y después, marca y usuario. La división debe ser limpia y el peso de ambos lados, intencionado.",
+      "cuando": "Comparativas, beneficios funcionales y campañas de contraste.",
+      "evitar": "Cuando los dos lados compiten por el mismo punto focal.",
+      "ratio": 0.75,
+      "columnas": 4,
+      "lectura": "izquierda a derecha",
+      "specs": {
+        "margen": 0,
+        "medianil": 0,
+        "densidad": "media",
+        "retícula": "2 mitades"
+      },
+      "principios": [
+        "contraste",
+        "equilibrio",
+        "proporcion"
+      ],
+      "teorias": [
+        "composicion-visual",
+        "suiza"
+      ],
+      "fuentes": [
+        "s08",
+        "s06"
+      ],
+      "bloques": [
+        {
+          "t": "imagen",
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 133
+        },
+        {
+          "t": "titular",
+          "x": 54,
+          "y": 8,
+          "w": 40,
+          "h": 20
+        },
+        {
+          "t": "texto",
+          "x": 54,
+          "y": 32,
+          "w": 40,
+          "h": 40,
+          "n": 10
+        },
+        {
+          "t": "cta",
+          "x": 54,
+          "y": 80,
+          "w": 28,
+          "h": 10
+        },
+        {
+          "t": "logo",
+          "x": 54,
+          "y": 104,
+          "w": 24,
+          "h": 8
+        },
+        {
+          "t": "lineav",
+          "x": 49,
+          "y": 0,
+          "w": 0.5,
+          "h": 133
+        }
+      ]
+    },
+    {
+      "id": "marco",
+      "nombre": "Marco o ventana",
+      "categoria": "anuncio",
+      "subtitulo": "El borde como pausa y concentración",
+      "descripcion": "Un marco visible aísla la pieza del ruido del soporte y concentra la mirada. Dentro, la imagen se rodea de aire y el texto se coloca en la base. Funciona bien en revistas de alta densidad publicitaria.",
+      "cuando": "Anuncios de lujo, joyería, perfumería y arte.",
+      "evitar": "Soportes donde el marco se confunde con el borde de la página.",
+      "ratio": 0.75,
+      "columnas": 4,
+      "lectura": "centrípeta",
+      "specs": {
+        "margen": 3,
+        "medianil": 4,
+        "densidad": "baja",
+        "retícula": "marco + 4 columnas"
+      },
+      "principios": [
+        "espacio-blanco",
+        "equilibrio",
+        "punto-focal"
+      ],
+      "teorias": [
+        "suiza",
+        "composicion-visual"
+      ],
+      "fuentes": [
+        "s08",
+        "s07"
+      ],
+      "bloques": [
+        {
+          "t": "marco",
+          "x": 3,
+          "y": 3,
+          "w": 94,
+          "h": 127
+        },
+        {
+          "t": "imagen",
+          "x": 10,
+          "y": 12,
+          "w": 80,
+          "h": 74
+        },
+        {
+          "t": "titular",
+          "x": 10,
+          "y": 92,
+          "w": 80,
+          "h": 12
+        },
+        {
+          "t": "texto",
+          "x": 10,
+          "y": 108,
+          "w": 54,
+          "h": 10,
+          "n": 2
+        },
+        {
+          "t": "logo",
+          "x": 68,
+          "y": 108,
+          "w": 22,
+          "h": 8
+        }
+      ]
+    },
+    {
+      "id": "antes-despues",
+      "nombre": "Antes y después",
+      "categoria": "anuncio",
+      "subtitulo": "El díptico como demostración",
+      "descripcion": "Dos imágenes gemelas demuestran una transformación. El eje vertical divide el antes y el después; los titulares los nombran; una línea de texto cierra el argumento. La simetría del formato hace que la diferencia sea evidente.",
+      "cuando": "Salud, belleza, limpieza, tecnología y servicios.",
+      "evitar": "Cuando la diferencia entre las dos imágenes no es inmediata.",
+      "ratio": 0.75,
+      "columnas": 4,
+      "lectura": "comparativa",
+      "specs": {
+        "margen": 3,
+        "medianil": 3,
+        "densidad": "baja",
+        "retícula": "díptico"
+      },
+      "principios": [
+        "contraste",
+        "equilibrio",
+        "jerarquia"
+      ],
+      "teorias": [
+        "semiotica",
+        "composicion-visual"
+      ],
+      "fuentes": [
+        "s06",
+        "s08"
+      ],
+      "bloques": [
+        {
+          "t": "imagen",
+          "x": 3,
+          "y": 5,
+          "w": 45,
+          "h": 95
+        },
+        {
+          "t": "imagen",
+          "x": 52,
+          "y": 5,
+          "w": 45,
+          "h": 95
+        },
+        {
+          "t": "titular",
+          "x": 3,
+          "y": 104,
+          "w": 45,
+          "h": 10
+        },
+        {
+          "t": "titular",
+          "x": 52,
+          "y": 104,
+          "w": 45,
+          "h": 10
+        },
+        {
+          "t": "texto",
+          "x": 3,
+          "y": 118,
+          "w": 94,
+          "h": 6,
+          "n": 2
+        },
+        {
+          "t": "lineav",
+          "x": 49.5,
+          "y": 5,
+          "w": 0.8,
+          "h": 95
+        }
+      ]
+    },
+    {
+      "id": "anuncio-sangre",
+      "nombre": "Anuncio a sangre",
+      "categoria": "anuncio",
+      "subtitulo": "Imagen hasta el corte, producto al centro y firma abajo",
+      "descripcion": "El formato publicitario más común dentro de una revista: la imagen ocupa toda la página, el producto o la persona se sitúa en el eje, el reclamo es breve y la marca firma al pie. No lleva folio ni cintillo, lo que lo separa de las páginas editoriales.",
+      "cuando": "Moda, perfume, relojería, automoción y cualquier marca que vende imagen.",
+      "evitar": "Ofertas con mucho texto, precios o comparativas.",
+      "ratio": 0.75,
+      "columnas": 1,
+      "lectura": "centrípeta",
+      "specs": {
+        "margen": 8,
+        "medianil": 3,
+        "densidad": "baja",
+        "retícula": "imagen a sangre, eje central"
+      },
+      "principios": [
+        "punto-focal",
+        "espacio-blanco",
+        "contraste"
+      ],
+      "teorias": [
+        "creatividad-publicitaria",
+        "gestalt"
+      ],
+      "fuentes": [],
+      "bloques": [
+        {
+          "t": "imagen",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "h": 133.33
+        },
+        {
+          "t": "titular",
+          "x": 20,
+          "y": 8,
+          "w": 60,
+          "h": 8
+        },
+        {
+          "t": "logo",
+          "x": 36,
+          "y": 114,
+          "w": 28,
+          "h": 9
+        },
+        {
+          "t": "texto",
+          "x": 20,
+          "y": 126,
+          "w": 60,
+          "h": 2,
+          "n": 1
+        }
+      ],
+      "ejemplos": [
+        "gq-usa-2018-04 p58",
+        "gq-usa-2018-04 p82",
+        "gq-usa-2018-04 p148",
+        "computer-arts-2018-05 p100"
+      ],
+      "origen": "corpus",
+      "corpus": [
+        "computer-arts-2018-05",
+        "gq-usa-2018-04"
+      ]
+    }
+  ],
+  "formatos": [
+    {
+      "id": "f01",
+      "nombre": "Primera plana tabloide",
+      "soporte": "periodico",
+      "medidas": "289 × 380 mm",
+      "ratio": 0.76,
+      "uso": "Portada de diario; cabecera, noticia principal y módulos publicitarios.",
+      "patrones": [
+        "primera-plana",
+        "piramide-invertida"
+      ]
+    },
+    {
+      "id": "f02",
+      "nombre": "Página interior de periódico",
+      "soporte": "periodico",
+      "medidas": "289 × 380 mm",
+      "ratio": 0.76,
+      "uso": "Tronco de columnas, secciones y página de opinión.",
+      "patrones": [
+        "tronco-columnas",
+        "pagina-opinion"
+      ]
+    },
+    {
+      "id": "f03",
+      "nombre": "Doble página de periódico",
+      "soporte": "periodico",
+      "medidas": "578 × 380 mm",
+      "ratio": 1.52,
+      "uso": "Coberturas especiales y segundas páginas.",
+      "patrones": [
+        "doble-pagina-periodico"
+      ]
+    },
+    {
+      "id": "f04",
+      "nombre": "Módulo publicitario de prensa",
+      "soporte": "periodico",
+      "medidas": "Robapáginas 120 × 180 · faldón 289 × 60 · oreja 60 × 60 mm",
+      "ratio": 1.4,
+      "uso": "Publicidad integrada en la retícula del diario.",
+      "patrones": [
+        "modulo-publicitario"
+      ]
+    },
+    {
+      "id": "f05",
+      "nombre": "Página de revista",
+      "soporte": "revista",
+      "medidas": "210 × 280 mm",
+      "ratio": 0.75,
+      "uso": "Página tipo para reportajes, entrevistas y servicio.",
+      "patrones": [
+        "reticula-12",
+        "cita-destacada"
+      ]
+    },
+    {
+      "id": "f06",
+      "nombre": "Doble página de revista",
+      "soporte": "revista",
+      "medidas": "420 × 280 mm",
+      "ratio": 1.5,
+      "uso": "Aperturas de reportaje y feature well.",
+      "patrones": [
+        "apertura-reportaje",
+        "feature-well",
+        "infografia-pagina-completa"
+      ]
+    },
+    {
+      "id": "f07",
+      "nombre": "Portada de revista",
+      "soporte": "revista",
+      "medidas": "210 × 280 mm",
+      "ratio": 0.75,
+      "uso": "Cabecera, titulares de cubierta y venta en quiosco.",
+      "patrones": [
+        "portada-revista"
+      ]
+    },
+    {
+      "id": "f08",
+      "nombre": "Anuncio página completa",
+      "soporte": "anuncio",
+      "medidas": "210 × 280 mm",
+      "ratio": 0.75,
+      "uso": "Máxima presencia; producto, titular y cierre.",
+      "patrones": [
+        "regla-tercios",
+        "marco",
+        "tipografico"
+      ]
+    },
+    {
+      "id": "f09",
+      "nombre": "Media página horizontal",
+      "soporte": "anuncio",
+      "medidas": "210 × 140 mm",
+      "ratio": 1.5,
+      "uso": "Anuncio de refuerzo en páginas de contenido.",
+      "patrones": [
+        "f-pattern",
+        "split"
+      ]
+    },
+    {
+      "id": "f10",
+      "nombre": "Robapáginas",
+      "soporte": "anuncio",
+      "medidas": "105 × 140 mm",
+      "ratio": 0.75,
+      "uso": "Módulo de página impar o par, integrado a la retícula.",
+      "patrones": [
+        "z-pattern",
+        "antes-despues"
+      ]
+    },
+    {
+      "id": "f11",
+      "nombre": "Faldón",
+      "soporte": "anuncio",
+      "medidas": "210 × 70 mm",
+      "ratio": 3,
+      "uso": "Banda horizontal al pie de página; mensaje breve.",
+      "patrones": [
+        "regla-tercios"
+      ]
+    }
+  ],
+  "matriz": [
+    {
+      "objetivo": "Abrir el número con un golpe visual",
+      "soporte": "revista",
+      "patrones": [
+        "portada-revista",
+        "apertura-reportaje"
+      ],
+      "criterio": "Una imagen dominante, un titular y una promesa clara."
+    },
+    {
+      "objetivo": "Explicar una noticia compleja",
+      "soporte": "periodico",
+      "patrones": [
+        "piramide-invertida",
+        "tronco-columnas",
+        "infografia-pagina-completa"
+      ],
+      "criterio": "Jerarquía descendente y datos convertidos en imagen."
+    },
+    {
+      "objetivo": "Sostener una lectura larga",
+      "soporte": "revista",
+      "patrones": [
+        "feature-well",
+        "cita-destacada",
+        "reticula-12"
+      ],
+      "criterio": "Columnas legibles, pausas visuales y ritmo de doble página."
+    },
+    {
+      "objetivo": "Vender un producto en tres segundos",
+      "soporte": "anuncio",
+      "patrones": [
+        "z-pattern",
+        "regla-tercios",
+        "tipografico"
+      ],
+      "criterio": "Un foco, un beneficio y un CTA visible."
+    },
+    {
+      "objetivo": "Construir intriga de marca",
+      "soporte": "anuncio",
+      "patrones": [
+        "collage-editorial",
+        "marco",
+        "split"
+      ],
+      "criterio": "Una sola idea visual y un texto que no la explique de más."
+    },
+    {
+      "objetivo": "Demostrar una transformación",
+      "soporte": "anuncio",
+      "patrones": [
+        "antes-despues",
+        "split"
+      ],
+      "criterio": "Dos imágenes comparables y un eje de diferencia evidente."
+    },
+    {
+      "objetivo": "Dar contexto y opinión",
+      "soporte": "periodico",
+      "patrones": [
+        "pagina-opinion",
+        "cita-destacada"
+      ],
+      "criterio": "Firmas visibles, caricatura o ilustración y espacio de respiro."
+    },
+    {
+      "objetivo": "Integrar publicidad sin romper la página",
+      "soporte": "periodico",
+      "patrones": [
+        "modulo-publicitario",
+        "reticula-12"
+      ],
+      "criterio": "Módulos normalizados alineados a las mismas columnas."
+    },
+    {
+      "objetivo": "Mantener coherencia en una serie",
+      "soporte": "revista",
+      "patrones": [
+        "reticula-12",
+        "feature-well",
+        "doble-pagina-periodico"
+      ],
+      "criterio": "Retícula, escala y estilos comunes con variaciones controladas."
+    },
+    {
+      "objetivo": "Sostener la lectura larga de un reportaje",
+      "soporte": "revista",
+      "patrones": [
+        "pagina-columnas",
+        "cita-destacada"
+      ],
+      "criterio": "Columnas legibles, folio constante y una cita que da respiro cada pocas columnas."
+    },
+    {
+      "objetivo": "Abrir una serie de moda o un retrato",
+      "soporte": "revista",
+      "patrones": [
+        "apertura-sangre",
+        "apertura-reportaje"
+      ],
+      "criterio": "La imagen manda; el texto se apoya en la zona más limpia y no compite con el rostro."
+    },
+    {
+      "objetivo": "Firmar una marca de imagen dentro de una revista",
+      "soporte": "anuncio",
+      "patrones": [
+        "anuncio-sangre",
+        "marco"
+      ],
+      "criterio": "Producto en el eje, reclamo mínimo y marca al pie; sin folio para que no se confunda con contenido."
+    }
+  ],
+  "checklist": [
+    {
+      "criterio": "Existe un único punto focal evidente en menos de tres segundos",
+      "nivel": "imprescindible",
+      "como": "Entornar los ojos o mirar la pieza en miniatura."
+    },
+    {
+      "criterio": "La jerarquía tiene tres niveles legibles",
+      "nivel": "imprescindible",
+      "como": "Titular, entradilla y cuerpo se distinguen sin esfuerzo."
+    },
+    {
+      "criterio": "La retícula está declarada y se respeta",
+      "nivel": "imprescindible",
+      "como": "Columnas, márgenes y líneas de flujo coinciden entre páginas."
+    },
+    {
+      "criterio": "La línea de texto mide entre 45 y 75 caracteres",
+      "nivel": "imprescindible",
+      "como": "Contar caracteres de una línea completa del cuerpo."
+    },
+    {
+      "criterio": "El interlineado guarda proporción con el cuerpo",
+      "nivel": "recomendado",
+      "como": "Entre 120 % y 145 % del tamaño para texto corrido."
+    },
+    {
+      "criterio": "El contraste de texto y fondo supera el mínimo de lectura",
+      "nivel": "imprescindible",
+      "como": "Probar en impresión láser y en pantalla pequeña."
+    },
+    {
+      "criterio": "Los módulos publicitarios se alinean a la retícula",
+      "nivel": "recomendado",
+      "como": "Superponer la retícula y comprobar los bordes de los anuncios."
+    },
+    {
+      "criterio": "El blanco separa y no solo rellena",
+      "nivel": "recomendado",
+      "como": "Señalar las zonas de aire intencionadas."
+    },
+    {
+      "criterio": "La tipografía se limita a dos o tres familias",
+      "nivel": "recomendado",
+      "como": "Inventariar familias, pesos y estilos usados."
+    },
+    {
+      "criterio": "El ritmo de dobles páginas alterna densidad y respiro",
+      "nivel": "recomendado",
+      "como": "Ver la publicación en pliegos y recorrerla hojeando."
+    },
+    {
+      "criterio": "El CTA y la marca son visibles sin buscar",
+      "nivel": "imprescindible",
+      "como": "Test de cinco segundos con una persona ajena a la pieza."
+    },
+    {
+      "criterio": "La pieza sobrevive en blanco y negro y en miniatura",
+      "nivel": "recomendado",
+      "como": "Convertir a gris y reducir al 20 %."
+    }
+  ],
+  "glosario": [
+    {
+      "termino": "Mancha",
+      "definicion": "Zona impresa de la página, delimitada por los márgenes.",
+      "fuente": "s03"
+    },
+    {
+      "termino": "Caja tipográfica",
+      "definicion": "Área útil donde se compone el texto dentro de la mancha.",
+      "fuente": "s03"
+    },
+    {
+      "termino": "Retícula",
+      "definicion": "Sistema de columnas, filas y líneas de flujo que ordena la página.",
+      "fuente": "s01"
+    },
+    {
+      "termino": "Módulo",
+      "definicion": "Unidad repetible de la retícula que agrupa contenido.",
+      "fuente": "s02"
+    },
+    {
+      "termino": "Medianil",
+      "definicion": "Espacio vertical entre columnas.",
+      "fuente": "s01"
+    },
+    {
+      "termino": "Línea de flujo",
+      "definicion": "Intervalo horizontal que marca dónde empieza y termina el texto.",
+      "fuente": "s01"
+    },
+    {
+      "termino": "Folio",
+      "definicion": "Número de página y datos de identificación de la publicación.",
+      "fuente": "s05"
+    },
+    {
+      "termino": "Cabecera",
+      "definicion": "Nombre de la publicación y datos fijos en la parte superior.",
+      "fuente": "s03"
+    },
+    {
+      "termino": "Oreja",
+      "definicion": "Módulo publicitario en el ángulo superior de la página.",
+      "fuente": "s03"
+    },
+    {
+      "termino": "Faldón",
+      "definicion": "Banda publicitaria horizontal al pie de la página.",
+      "fuente": "s03"
+    },
+    {
+      "termino": "Robapáginas",
+      "definicion": "Anuncio de media página que ocupa un módulo interior.",
+      "fuente": "s03"
+    },
+    {
+      "termino": "A sangre",
+      "definicion": "Imagen que llega hasta el borde recortado de la página.",
+      "fuente": "s01"
+    },
+    {
+      "termino": "Doble página",
+      "definicion": "Unidad de lectura formada por las páginas par e impar enfrentadas.",
+      "fuente": "s01"
+    },
+    {
+      "termino": "Sumario",
+      "definicion": "Bloque que resume los contenidos y la jerarquía de la edición.",
+      "fuente": "s03"
+    },
+    {
+      "termino": "Entradilla",
+      "definicion": "Párrafo inicial que amplía el titular y sitúa la información.",
+      "fuente": "s03"
+    },
+    {
+      "termino": "Pie de foto",
+      "definicion": "Texto que identifica y ancla el sentido de una imagen.",
+      "fuente": "s01"
+    },
+    {
+      "termino": "Destacado",
+      "definicion": "Fragmento de texto ampliado para romper el ritmo de lectura.",
+      "fuente": "s01"
+    },
+    {
+      "termino": "Filete",
+      "definicion": "Línea fina que separa bloques y ordena la página.",
+      "fuente": "s03"
+    },
+    {
+      "termino": "Pliego",
+      "definicion": "Hoja impresa que, doblada, forma varias páginas.",
+      "fuente": "s05"
+    },
+    {
+      "termino": "Contracubierta",
+      "definicion": "Cara posterior de la cubierta de una publicación.",
+      "fuente": "s05"
+    }
+  ],
+  "fuentes": [
+    {
+      "id": "s01",
+      "archivo": "Los elementos del diseño - Timothy Samara.md",
+      "titulo": "Los elementos del diseño",
+      "autor": "Timothy Samara",
+      "aporte": "Retículas, tipografía, lógica visual y veinte reglas de diseño.",
+      "uso": "directo"
+    },
+    {
+      "id": "s02",
+      "archivo": "Wucios Wong - FUNDAMENTOS DEL DISEÑO 2d y 3d.md",
+      "titulo": "Fundamentos del diseño 2D y 3D",
+      "autor": "Wucius Wong",
+      "aporte": "Elementos, módulos, estructura, repetición y contraste.",
+      "uso": "directo"
+    },
+    {
+      "id": "s03",
+      "archivo": "gonzalez-ruiz-guillermo-estudio-de-diseno.md",
+      "titulo": "Estudio de diseño",
+      "autor": "Guillermo González Ruiz",
+      "aporte": "Retícula de diagramación, diario La Razón, tipografía serial y Gestalt.",
+      "uso": "directo"
+    },
+    {
+      "id": "s04",
+      "archivo": "Bauhaus 1919-1933. Bauhaus Archive Magdalena Droste by Magdalena Droste Bauhaus-Archiv (z-lib.org).md",
+      "titulo": "Bauhaus 1919–1933",
+      "autor": "Magdalena Droste",
+      "aporte": "Programa, talleres, forma-función y tipografía funcional.",
+      "uso": "directo"
+    },
+    {
+      "id": "s05",
+      "archivo": "Pequeno-Diccionario-Disenador.md",
+      "titulo": "Pequeño diccionario del diseñador",
+      "autor": "Varios",
+      "aporte": "Terminología de oficio y definiciones editoriales.",
+      "uso": "directo"
+    },
+    {
+      "id": "s06",
+      "archivo": "Creatividad_publicitaria_ONLINE.md",
+      "titulo": "Creatividad publicitaria y nuevas formas de comunicación",
+      "autor": "María Luisa Pinar Selva (ed.)",
+      "aporte": "Medios, anuncios, creatividad y formatos digitales.",
+      "uso": "contextual"
+    },
+    {
+      "id": "s07",
+      "archivo": "20 Reglas para un buen anuncio.md",
+      "titulo": "20 reglas para un buen anuncio",
+      "autor": "Varios",
+      "aporte": "Jerarquía, contraste, espacio y economía del mensaje.",
+      "uso": "directo"
+    },
+    {
+      "id": "s08",
+      "archivo": "Libro Composicion Visual.md",
+      "titulo": "Composición visual: técnicas y leyes compositivas",
+      "autor": "Varios",
+      "aporte": "Pares de leyes compositivas: equilibrio, simetría, unidad, contraste.",
+      "uso": "directo"
+    },
+    {
+      "id": "s09",
+      "archivo": "Designpedia.md",
+      "titulo": "Designpedia",
+      "autor": "Varios",
+      "aporte": "Herramientas de ideación y prototipado.",
+      "uso": "contextual"
+    },
+    {
+      "id": "s10",
+      "archivo": "13. Método DDDD.md",
+      "titulo": "Método DDDD",
+      "autor": "Postgrado de Dirección de Arte",
+      "aporte": "Descubrir, Definir, Desarrollar y Dirigir; contexto y concepto.",
+      "uso": "directo"
+    },
+    {
+      "id": "s11",
+      "archivo": "12. MétodoCBCBCB.md",
+      "titulo": "Método CB&CB&CB",
+      "autor": "Postgrado de Dirección de Arte",
+      "aporte": "Contexto, referentes, tendencias, campo e imagen.",
+      "uso": "directo"
+    },
+    {
+      "id": "s12",
+      "archivo": "desarrollo_pensamiento_creativo.md",
+      "titulo": "Desarrollo del pensamiento creativo",
+      "autor": "Varios",
+      "aporte": "Divergencia, convergencia y proceso creativo.",
+      "uso": "contextual"
+    },
+    {
+      "id": "s13",
+      "archivo": "06_30_17_30_ARTICULO_153-160.md",
+      "titulo": "La escala de iconicidad en el ámbito de las marcas",
+      "autor": "Artículo académico",
+      "aporte": "Gradación de iconicidad aplicada a marcas.",
+      "uso": "contextual"
+    },
+    {
+      "id": "s14",
+      "archivo": "LIBRO INVESTIGACION DE MARCAS.md",
+      "titulo": "Investigación de marcas",
+      "autor": "Varios",
+      "aporte": "Identidad, logotipo, color y tipografía de marca.",
+      "uso": "contextual"
+    },
+    {
+      "id": "s15",
+      "archivo": "M.C._Escher._Universos_Infinitos.md",
+      "titulo": "M. C. Escher. Universos infinitos",
+      "autor": "Consorcio Parque de las Ciencias",
+      "aporte": "Simetría, teselación y figura-fondo.",
+      "uso": "contextual"
+    },
+    {
+      "id": "s16",
+      "archivo": "Making Comics Storytelling Secrets of Comics, Manga and Graphic Novels by Scott Mccloud (z-lib.org).md",
+      "titulo": "Making Comics",
+      "autor": "Scott McCloud",
+      "aporte": "Secuencia y ritmo de lectura (archivo truncado).",
+      "uso": "contextual"
+    },
+    {
+      "id": "s17",
+      "archivo": "capitulo3.md",
+      "titulo": "Capítulo 3: percepción y comunicación visual",
+      "autor": "Varios",
+      "aporte": "Percepción, función del diseño y antecedentes.",
+      "uso": "contextual"
+    },
+    {
+      "id": "s18",
+      "archivo": "Pequeno-Diccionario-Disenador (1).md",
+      "titulo": "Pequeño diccionario del diseñador (copia)",
+      "autor": "Varios",
+      "aporte": "Duplicado del diccionario; sin aporte adicional.",
+      "uso": "duplicado"
+    },
+    {
+      "id": "s19",
+      "archivo": "Aerografo Para Empezar A Pintar Parramon Digital by Parramon, Miquel Ferrón Geis (z-lib.org).md",
+      "titulo": "Aerógrafo para empezar a pintar",
+      "autor": "Parramón",
+      "aporte": "Técnica de pintura; fuera del alcance de este atlas.",
+      "uso": "no aplicado"
+    },
+    {
+      "id": "s20",
+      "archivo": "Creating Characters Fun and Easy Guide to Drawing Cartoons and Comics by Josiah Brooks   Jazza (z-lib.org).md",
+      "titulo": "Creating Characters",
+      "autor": "Josiah Brooks",
+      "aporte": "Dibujo de personajes; fuera del alcance.",
+      "uso": "no aplicado"
+    },
+    {
+      "id": "s21",
+      "archivo": "M.T. Richards Publishing - Practical Blacksmithing_ Volume IV (1891).md",
+      "titulo": "Practical Blacksmithing, Vol. IV",
+      "autor": "M. T. Richards",
+      "aporte": "Forja artesanal; fuera del alcance.",
+      "uso": "no aplicado"
+    },
+    {
+      "id": "s22",
+      "archivo": "CREATE PACK USERGUIDE.md",
+      "titulo": "Create Pack User Guide",
+      "autor": "Motion Bro",
+      "aporte": "Manual de plugin; fuera del alcance.",
+      "uso": "no aplicado"
+    }
+  ],
+  "config": {
+    "presets": [
+      {
+        "id": "periodico-clasico",
+        "nombre": "Periódico clásico",
+        "soporte": "periodico",
+        "patron": "primera-plana",
+        "columnas": 6,
+        "medianil": 3,
+        "margen": 4,
+        "densidad": "media",
+        "equilibrio": "asimetrico",
+        "teoria": "editorial-moderno"
+      },
+      {
+        "id": "revista-suiza",
+        "nombre": "Revista suiza",
+        "soporte": "revista",
+        "patron": "reticula-12",
+        "columnas": 12,
+        "medianil": 2,
+        "margen": 6,
+        "densidad": "aireada",
+        "equilibrio": "asimetrico",
+        "teoria": "suiza"
+      },
+      {
+        "id": "anuncio-expresivo",
+        "nombre": "Anuncio expresivo",
+        "soporte": "anuncio",
+        "patron": "tipografico",
+        "columnas": 4,
+        "medianil": 4,
+        "margen": 5,
+        "densidad": "compacta",
+        "equilibrio": "simetrico",
+        "teoria": "constructivismo"
+      },
+      {
+        "id": "reportaje-apertura",
+        "nombre": "Apertura de reportaje",
+        "soporte": "revista",
+        "patron": "apertura-reportaje",
+        "columnas": 8,
+        "medianil": 4,
+        "margen": 4,
+        "densidad": "aireada",
+        "equilibrio": "asimetrico",
+        "teoria": "composicion-visual"
+      }
+    ],
+    "opciones": {
+      "columnas": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        12
+      ],
+      "densidad": [
+        "aireada",
+        "media",
+        "compacta"
+      ],
+      "equilibrio": [
+        "asimetrico",
+        "simetrico"
+      ]
+    }
+  },
+  "pdf": {
+    "max_paginas": 5,
+    "tamano_max_mb": 60,
+    "clasificacion": [
+      {
+        "id": "anuncio",
+        "label": "Anuncio",
+        "senales": [
+          "cobertura de imagen alta",
+          "texto escaso",
+          "titular dominante",
+          "una o dos páginas",
+          "pocos bloques de texto"
+        ]
+      },
+      {
+        "id": "revista",
+        "label": "Revista",
+        "senales": [
+          "proporción de página tipo revista",
+          "columnas moderadas",
+          "imagen de apertura",
+          "titulares grandes",
+          "márgenes amplios"
+        ]
+      },
+      {
+        "id": "periodico",
+        "label": "Periódico",
+        "senales": [
+          "cuatro o más columnas",
+          "alta densidad de texto",
+          "márgenes estrechos",
+          "muchas líneas por página",
+          "cuerpo pequeño"
+        ]
+      }
+    ],
+    "biblioteca": {
+      "almacenamiento": "localStorage",
+      "clave": "atlas-pdf-library-v2",
+      "max_estilos": 16,
+      "exportacion": "JSON"
+    },
+    "exportacion": {
+      "xml": "layout.xml (estructura de página, retícula, estilos y marcos)",
+      "idml": "paquete IDML de referencia generado desde plantilla BSD"
+    },
+    "muestreo": "Hasta 8 páginas: las primeras cinco. Desde 9 páginas: la portada y cuatro páginas repartidas por el documento.",
+    "calibracion": {
+      "version": "2026-10-22",
+      "corpus": [
+        "computer-arts-2018-05",
+        "gq-usa-2018-04"
+      ],
+      "notas": {
+        "roles": "Umbrales de cuerpo relativos al cuerpo base. capitular: letra sola ≥ 1,9× (las capitulares de Computer Arts llegan a 16×). borde: banda superior/inferior donde viven folio y cintillo. cita: texto mayor que el cuerpo, de varias líneas, junto a columnas y por debajo del 20 % superior.",
+        "fondo": "Página aplanada: imagen base a página completa bajo la capa de texto (casi todas las páginas de ambas revistas). Solo cuenta como foto a sangre si el fondo es oscuro/impreso o si llena la página y toca los cuatro bordes. franja_max: borde negro de sangrado que se rellena antes de medir.",
+        "raster": "Rejilla de 100 columnas para que los medianiles de 1-2 % separen las imágenes de una galería.",
+        "mezcla": "Similitud por clase con coeficiente de Dice. Señales de página: folio con número o fecha (editorial), foto a sangre sin folio y casi sin texto (anuncio), portada solo en la página 1, sumario solo con números de página.",
+        "clasificacion": "El folio con número de página o fecha suma a revista y resta a anuncio.",
+        "muestreo": "Desde 9 páginas se lee la portada y cuatro páginas repartidas: en una revista, las cinco primeras son portada y anuncios."
+      },
+      "roles": {
+        "cabecera": 2.1,
+        "titular": 1.75,
+        "subtitulo": 1.22,
+        "pie": 0.86,
+        "dato": 1.5,
+        "cita": 1.05,
+        "capitular": 1.9,
+        "borde": 0.07,
+        "cita_min_palabras": 6,
+        "cita_max": 2.6,
+        "cita_desde": 0.2
+      },
+      "fondo": {
+        "cobertura": 0.85,
+        "foto_min": 0.55,
+        "borde_min": 0.5,
+        "papel_lum": 200,
+        "borde_papel": 0.2,
+        "franja_max": 0.06,
+        "texto_min": 300
+      },
+      "raster": {
+        "columnas": 100,
+        "tinta": 0.3,
+        "textura": 14,
+        "saturacion": 0.22,
+        "tinta_plena": 0.75,
+        "min_celdas": 4,
+        "min_lado": 2.5
+      },
+      "mezcla": {
+        "tolerancia": 0.2,
+        "exponente_area": 0.7,
+        "bonus_categoria": 0.03,
+        "peso_geometrico": 0.08,
+        "penal_imagenes": 0.04,
+        "penal_titulares": 0.03,
+        "penal_ratio": 0.2,
+        "umbral": 0.3,
+        "candidatos": 5,
+        "bonus_folio": 0.03,
+        "bonus_anuncio": 0.1,
+        "anuncio_max_texto": 300,
+        "bonus_sumario": 0.25,
+        "penal_sumario": 0.12,
+        "bonus_portada": 0.15,
+        "penal_portada": 0.08,
+        "peso_imagen": 0.35,
+        "peso_texto": 0.3,
+        "peso_titular": 0.15,
+        "peso_vacio": 0.2
+      },
+      "clasificacion": {
+        "folio_revista": 14,
+        "folio_periodico": 7,
+        "folio_anuncio": 10
+      },
+      "muestreo": {
+        "repartir_desde": 9
+      }
+    },
+    "corpus": [
+      {
+        "id": "computer-arts-2018-05",
+        "titulo": "Computer Arts · mayo 2018 (UK)",
+        "archivo_json": "revistas/computer-arts-2018-05.json",
+        "perfil": {
+          "formato_mm": "222 × 300",
+          "ratio": 0.74,
+          "paginas_totales": 100,
+          "muestra": 40,
+          "via_de_lectura": "capa de texto (páginas aplanadas con texto encima)",
+          "paginas_aplanadas": 0.83,
+          "paginas_sin_texto": 0.05,
+          "cuerpo_base_pt": 9,
+          "columnas_texto": 2,
+          "margenes_pct": {
+            "izquierdo": 7.28,
+            "derecho": 7.27,
+            "superior": 5.37,
+            "inferior": 4.13
+          },
+          "medianil_pct": 2.03,
+          "escala_pt": {
+            "titular": 29,
+            "subtitulo": 13.3,
+            "cita": 8.73,
+            "capitular": 38.87,
+            "cuerpo": 9,
+            "pie": 7,
+            "folio": 10
+          },
+          "tipos_de_pagina": {
+            "portada": 1,
+            "anuncio": 3,
+            "editorial": 36
+          },
+          "formas_principales": {
+            "portada-revista": 1,
+            "anuncio-sangre": 2,
+            "galeria-modular": 5,
+            "pagina-columnas": 8,
+            "sumario": 2,
+            "reticula-12": 9,
+            "split": 4,
+            "apertura-sangre": 4,
+            "collage-editorial": 2,
+            "tipografico": 1,
+            "cita-destacada": 1,
+            "infografia-pagina-completa": 1
+          }
+        },
+        "evaluacion": {
+          "linea_base": {
+            "paginas": 30,
+            "dominante": 2,
+            "pct_dominante": 7,
+            "tipo": 17,
+            "pct_tipo": 57
+          },
+          "ajuste": {
+            "paginas": 30,
+            "dominante": 20,
+            "entre_dos": 23,
+            "tipo": 24,
+            "pct_dominante": 67,
+            "pct_entre_dos": 77,
+            "pct_tipo": 80
+          },
+          "control": {
+            "paginas": 10,
+            "dominante": 5,
+            "entre_dos": 7,
+            "tipo": 7,
+            "pct_dominante": 50,
+            "pct_entre_dos": 70,
+            "pct_tipo": 70
+          }
+        }
+      },
+      {
+        "id": "gq-usa-2018-04",
+        "titulo": "GQ USA · abril 2018",
+        "archivo_json": "revistas/gq-usa-2018-04.json",
+        "perfil": {
+          "formato_mm": "203 × 276",
+          "ratio": 0.74,
+          "paginas_totales": 148,
+          "muestra": 35,
+          "via_de_lectura": "raster: muchas páginas sin capa de texto (anuncios y fotos de moda)",
+          "paginas_aplanadas": 0.77,
+          "paginas_sin_texto": 0.4,
+          "cuerpo_base_pt": 8.25,
+          "columnas_texto": 3,
+          "margenes_pct": {
+            "izquierdo": 6.25,
+            "derecho": 7.74,
+            "superior": 6.13,
+            "inferior": 2.95
+          },
+          "medianil_pct": 1.48,
+          "escala_pt": {
+            "titular": 18,
+            "subtitulo": 14,
+            "cita": 14,
+            "capitular": 19.5,
+            "cuerpo": 8.25,
+            "pie": 5.5,
+            "folio": 6
+          },
+          "tipos_de_pagina": {
+            "portada": 1,
+            "anuncio": 11,
+            "editorial": 23
+          },
+          "formas_principales": {
+            "portada-revista": 1,
+            "anuncio-sangre": 6,
+            "sumario": 1,
+            "collage-editorial": 1,
+            "pagina-columnas": 6,
+            "galeria-modular": 2,
+            "marco": 2,
+            "apertura-sangre": 9,
+            "reticula-12": 3,
+            "regla-tercios": 1,
+            "tipografico": 1,
+            "cita-destacada": 1,
+            "split": 1
+          }
+        },
+        "evaluacion": {
+          "linea_base": {
+            "paginas": 25,
+            "dominante": 1,
+            "pct_dominante": 4,
+            "tipo": 12,
+            "pct_tipo": 48
+          },
+          "ajuste": {
+            "paginas": 25,
+            "dominante": 16,
+            "entre_dos": 17,
+            "tipo": 15,
+            "pct_dominante": 64,
+            "pct_entre_dos": 68,
+            "pct_tipo": 60
+          },
+          "control": {
+            "paginas": 10,
+            "dominante": 4,
+            "entre_dos": 4,
+            "tipo": 7,
+            "pct_dominante": 40,
+            "pct_entre_dos": 40,
+            "pct_tipo": 70
+          }
+        }
+      }
+    ],
+    "reconstrucciones": [
+      {
+        "id": "american-frontiersman-winter-2020-usa-02ffa774",
+        "titulo": "American Frontiersman - Winter 2020 USA",
+        "archivo_json": "reconstrucciones/american-frontiersman-winter-2020-usa-02ffa774.json",
+        "fecha": "2026-10-24",
+        "perfil": {
+          "formato_mm": "277 × 364",
+          "ratio": 0.76,
+          "paginas_totales": 116,
+          "muestra": 116,
+          "via_de_lectura": "capa de texto + OCR en 3 páginas sin texto",
+          "paginas_sin_texto": 0.04,
+          "paginas_con_ocr": [
+            1,
+            67,
+            115
+          ],
+          "cuerpo_base_pt": 12,
+          "columnas_texto": 3,
+          "margenes_pct": {
+            "izquierdo": 7.19,
+            "derecho": 7.56,
+            "superior": 24.85,
+            "inferior": 7.01
+          },
+          "escala_pt": {
+            "titular": 30,
+            "subtitulo": 17.5,
+            "cuerpo": 12,
+            "pie": 10
+          }
+        },
+        "indesign": {
+          "version": "21.1.0.56",
+          "fecha": "Saturday, 24 Oct 2026 05:39:32 GMT",
+          "paginas": [
+            1,
+            2,
+            3,
+            10
+          ],
+          "marcos": {
+            "originales": 4,
+            "rellenos": 0,
+            "lineas": 0,
+            "campos": 0,
+            "textos": 205,
+            "ocr": 22
+          },
+          "estilos": 14,
+          "fuentes_faltantes": [],
+          "desbordes": 0,
+          "validacion_dtd": "0 errores",
+          "elementos_xml": 232,
+          "tiempo_s": 14.7
+        }
+      }
+    ]
+  }
+}

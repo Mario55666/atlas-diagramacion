@@ -1,0 +1,312 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "Flujo de diseño editorial: de la pauta a la página",
+    "quality_profile": "showcase",
+    "legend": {
+      "mode": "auto",
+      "entries": {
+        "external": {
+          "label": "Origen editorial"
+        },
+        "frontend": {
+          "label": "Referencia"
+        },
+        "database": {
+          "label": "Contenido y estilos"
+        },
+        "backend": {
+          "label": "Decisión de diagramación"
+        },
+        "security": {
+          "label": "Control"
+        },
+        "cloud": {
+          "label": "Salida"
+        },
+        "messagebus": {
+          "label": "Corrección"
+        }
+      }
+    },
+    "views": [
+      {
+        "id": "planificar",
+        "label": "Planificar la pieza",
+        "focus": [
+          "brief",
+          "inventario",
+          "referentes",
+          "patron"
+        ],
+        "note": "Del objetivo y el lector al soporte y el patrón de página."
+      },
+      {
+        "id": "estructurar",
+        "label": "Estructura formal",
+        "focus": [
+          "patron",
+          "reticula",
+          "jerarquia",
+          "maqueta"
+        ],
+        "note": "Retícula, escala tipográfica y bloques: la diagramación propiamente dicha."
+      },
+      {
+        "id": "cerrar",
+        "label": "Auditoría y cierre",
+        "focus": [
+          "maqueta",
+          "auditoria",
+          "corregir",
+          "salida"
+        ],
+        "note": "Nada sale sin pasar los 12 criterios; lo que falla vuelve a la maqueta."
+      }
+    ]
+  },
+  "lanes": [
+    {
+      "id": "planificacion",
+      "label": "Planificación editorial"
+    },
+    {
+      "id": "diagramacion",
+      "label": "Diagramación"
+    },
+    {
+      "id": "calidad",
+      "label": "Auditoría y salida"
+    }
+  ],
+  "phases": [
+    {
+      "id": "f_planificar",
+      "label": "Planificar",
+      "fromCol": 0,
+      "toCol": 1
+    },
+    {
+      "id": "f_estructurar",
+      "label": "Estructurar",
+      "fromCol": 2,
+      "toCol": 3,
+      "variant": "emphasis"
+    },
+    {
+      "id": "f_cerrar",
+      "label": "Componer y cerrar",
+      "fromCol": 4,
+      "toCol": 5,
+      "variant": "dashed"
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_forma",
+      "label": "Diagramación formal",
+      "lane": "diagramacion",
+      "fromCol": 1,
+      "toCol": 4,
+      "variant": "emphasis"
+    }
+  ],
+  "mainPath": [
+    "brief",
+    "inventario",
+    "patron",
+    "reticula",
+    "jerarquia",
+    "maqueta",
+    "auditoria",
+    "salida"
+  ],
+  "nodes": [
+    {
+      "id": "brief",
+      "lane": "planificacion",
+      "col": 0,
+      "type": "external",
+      "label": "Brief editorial",
+      "sublabel": "objetivo + lector",
+      "width": 124
+    },
+    {
+      "id": "referentes",
+      "lane": "diagramacion",
+      "col": 0,
+      "type": "frontend",
+      "label": "Referentes PDF",
+      "sublabel": "doble diagnóstico",
+      "width": 124
+    },
+    {
+      "id": "inventario",
+      "lane": "planificacion",
+      "col": 1,
+      "type": "database",
+      "label": "Inventario",
+      "sublabel": "textos + imágenes",
+      "width": 124
+    },
+    {
+      "id": "patron",
+      "lane": "diagramacion",
+      "col": 1,
+      "type": "backend",
+      "label": "Soporte y patrón",
+      "sublabel": "matriz objetivo",
+      "width": 124
+    },
+    {
+      "id": "reticula",
+      "lane": "diagramacion",
+      "col": 2,
+      "type": "backend",
+      "label": "Retícula",
+      "sublabel": "columnas · medianil",
+      "width": 124
+    },
+    {
+      "id": "jerarquia",
+      "lane": "diagramacion",
+      "col": 3,
+      "type": "backend",
+      "label": "Jerarquía",
+      "sublabel": "escala tipográfica",
+      "width": 124
+    },
+    {
+      "id": "maqueta",
+      "lane": "diagramacion",
+      "col": 4,
+      "type": "backend",
+      "label": "Maqueta",
+      "sublabel": "bloques en retícula",
+      "width": 124
+    },
+    {
+      "id": "auditoria",
+      "lane": "calidad",
+      "col": 4,
+      "type": "security",
+      "label": "Auditoría",
+      "sublabel": "12 criterios",
+      "tag": "bloqueante",
+      "width": 124
+    },
+    {
+      "id": "salida",
+      "lane": "calidad",
+      "col": 5,
+      "type": "cloud",
+      "label": "Salida",
+      "sublabel": "IDML + biblioteca",
+      "width": 124
+    },
+    {
+      "id": "corregir",
+      "lane": "calidad",
+      "col": 3,
+      "type": "messagebus",
+      "label": "Corrección",
+      "sublabel": "ajustar bloques",
+      "width": 124
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_brief_inv",
+      "from": "brief",
+      "to": "inventario",
+      "label": "pauta",
+      "variant": "emphasis"
+    },
+    {
+      "id": "e_inv_pat",
+      "from": "inventario",
+      "to": "patron",
+      "label": "prioridades",
+      "variant": "emphasis"
+    },
+    {
+      "id": "e_ref_pat",
+      "from": "referentes",
+      "to": "patron",
+      "label": "patrón cercano",
+      "variant": "dashed",
+      "role": "branch"
+    },
+    {
+      "id": "e_pat_ret",
+      "from": "patron",
+      "to": "reticula"
+    },
+    {
+      "id": "e_ret_jer",
+      "from": "reticula",
+      "to": "jerarquia"
+    },
+    {
+      "id": "e_jer_maq",
+      "from": "jerarquia",
+      "to": "maqueta"
+    },
+    {
+      "id": "e_maq_aud",
+      "from": "maqueta",
+      "to": "auditoria",
+      "variant": "emphasis"
+    },
+    {
+      "id": "e_aud_sal",
+      "from": "auditoria",
+      "to": "salida",
+      "label": "aprueba",
+      "variant": "emphasis"
+    },
+    {
+      "id": "e_aud_cor",
+      "from": "auditoria",
+      "to": "corregir",
+      "label": "falla",
+      "variant": "security",
+      "role": "error"
+    },
+    {
+      "id": "e_cor_maq",
+      "from": "corregir",
+      "to": "maqueta",
+      "label": "reajuste",
+      "variant": "dashed",
+      "role": "return"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "amber",
+      "title": "Primero el mensaje",
+      "items": [
+        "El brief fija objetivo, lector y soporte antes de elegir forma",
+        "El inventario ordena las notas por importancia"
+      ]
+    },
+    {
+      "dot": "cyan",
+      "title": "La retícula sostiene",
+      "items": [
+        "Columnas, medianil y márgenes se deciden antes de los bloques",
+        "La jerarquía tipográfica marca el punto de entrada"
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "Cerrar con evidencia",
+      "items": [
+        "La auditoría de 12 criterios es bloqueante",
+        "Lo que falla vuelve a la maqueta, no a la salida"
+      ]
+    }
+  ]
+}

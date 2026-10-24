@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<interactiveCatalog xmlns:ns2="http://www.cuatroochenta.com/catalog/viewer">
+    <ns2:versionFormat>1</ns2:versionFormat>
+    <ns2:catalogId>nuevoproyectodecatalogo</ns2:catalogId>
+    <ns2:title>Catalogo</ns2:title>
+    <ns2:navigationType>ONLY_VERTICAL</ns2:navigationType>
+    <ns2:firstPageLeft>false</ns2:firstPageLeft>
+    <ns2:verticalSize height="1024.0" width="768.0"/>
+    <ns2:page>
+        <ns2:verticalIndexImage>nuevoproyectodecatalogo_ued_uf2/VERTICAL/page_index.jpg</ns2:verticalIndexImage>
+        <ns2:verticalLayer>
+            <ns2:name>MAIN_LAYER</ns2:name>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageItem">
+                <ns2:left type="ABSOLUTE" value="0.0"/>
+                <ns2:top type="ABSOLUTE" value="0.0"/>
+                <ns2:width type="ABSOLUTE" value="768.0"/>
+                <ns2:height type="ABSOLUTE" value="1024.0"/>
+                <ns2:itemId>1252255671</ns2:itemId>
+                <ns2:itemName>BACKGROUND_0_nuevoproyectodecatalogo_nuevoproyectodecatalogo_ued_uf2_VERTICAL</ns2:itemName>
+                <ns2:path>nuevoproyectodecatalogo_ued_uf2/VERTICAL/page_1_background.jpg</ns2:path>
+            </ns2:item>
+        </ns2:verticalLayer>
+        <ns2:pageId>nuevoproyectodecatalogo_nuevoproyectodecatalogo_ued_uf2</ns2:pageId>
+        <ns2:analyticsId>pagina1</ns2:analyticsId>
+        <ns2:title>Página 1</ns2:title>
+        <ns2:verticalSize height="1024.0" width="768.0"/>
+        <ns2:externalDisplayMode>MIRROR</ns2:externalDisplayMode>
+        <ns2:horizontalPageVerticalScrollPager>false</ns2:horizontalPageVerticalScrollPager>
+        <ns2:verticalPageVerticalScrollPager>false</ns2:verticalPageVerticalScrollPager>
+    </ns2:page>
+    <ns2:page>
+        <ns2:verticalIndexImage>nuevoproyectodecatalogo_u121_u126/VERTICAL/page_index.jpg</ns2:verticalIndexImage>
+        <ns2:verticalLayer>
+            <ns2:name>MAIN_LAYER</ns2:name>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageItem">
+                <ns2:left type="ABSOLUTE" value="0.0"/>
+                <ns2:top type="ABSOLUTE" value="0.0"/>
+                <ns2:width type="ABSOLUTE" value="768.0"/>
+                <ns2:height type="ABSOLUTE" value="1024.0"/>
+                <ns2:itemId>330391689</ns2:itemId>
+                <ns2:itemName>BACKGROUND_0_nuevoproyectodecatalogo_nuevoproyectodecatalogo_u121_u126_VERTICAL</ns2:itemName>
+                <ns2:path>nuevoproyectodecatalogo_u121_u126/VERTICAL/page_2_background.jpg</ns2:path>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="312.0"/>
+                <ns2:top type="ABSOLUTE" value="860.0"/>
+                <ns2:width type="ABSOLUTE" value="144.0"/>
+                <ns2:height type="ABSOLUTE" value="144.0"/>
+                <ns2:itemId>3208415</ns2:itemId>
+                <ns2:itemName>u3a6</ns2:itemName>
+                <ns2:logicalName>home</ns2:logicalName>
+                <ns2:normalPath>Common/pagebutton9342_-115703967.png</ns2:normalPath>
+                <ns2:action xsi:type="ns2:GoToPageAction">
+                    <ns2:page>0</ns2:page>
+                </ns2:action>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="36.0"/>
+                <ns2:top type="ABSOLUTE" value="190.4"/>
+                <ns2:width type="ABSOLUTE" value="178.0"/>
+                <ns2:height type="ABSOLUTE" value="142.4"/>
+                <ns2:itemId>130803097</ns2:itemId>
+                <ns2:itemName>u573</ns2:itemName>
+                <ns2:logicalName>btnCollar</ns2:logicalName>
+                <ns2:normalPath>Common/pagebutton13952_778995123.png</ns2:normalPath>
+                <ns2:action xsi:type="ns2:HideItemAction">
+                    <ns2:animationType>EASE_OUT</ns2:animationType>
+                    <ns2:itemId>2130080</ns2:itemId>
+                </ns2:action>
+                <ns2:action xsi:type="ns2:ShowItemAction">
+                    <ns2:animationType>EASE_OUT</ns2:animationType>
+                    <ns2:itemId>-1354846179</ns2:itemId>
+                </ns2:action>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="36.0"/>
+                <ns2:top type="ABSOLUTE" value="344.8"/>
+                <ns2:width type="ABSOLUTE" value="178.0"/>
+                <ns2:height type="ABSOLUTE" value="142.4"/>
+                <ns2:itemId>205746428</ns2:itemId>
+                <ns2:itemName>u570</ns2:itemName>
+                <ns2:logicalName>btnDije</ns2:logicalName>
+                <ns2:normalPath>Common/pagebutton13922_-1883515920.png</ns2:normalPath>
+                <ns2:action xsi:type="ns2:HideItemAction">
+                    <ns2:animationType>EASE_OUT</ns2:animationType>
+                    <ns2:itemId>-1354846179</ns2:itemId>
+                </ns2:action>
+                <ns2:action xsi:type="ns2:ShowItemAction">
+                    <ns2:animationType>EASE_OUT</ns2:animationType>
+                    <ns2:itemId>2130080</ns2:itemId>
+                </ns2:action>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="0.0"/>
+                <ns2:top type="ABSOLUTE" value="0.0"/>
+                <ns2:width type="ABSOLUTE" value="768.0"/>
+                <ns2:height type="ABSOLUTE" value="931.0"/>
+                <ns2:itemId>-1354846179</ns2:itemId>
+                <ns2:itemName>u56f</ns2:itemName>
+                <ns2:logicalName>collar</ns2:logicalName>
+                <ns2:hidden>true</ns2:hidden>
+                <ns2:normalPath>Common/pagebutton13912_1523947695.png</ns2:normalPath>
+                <ns2:action xsi:type="ns2:HideItemAction">
+                    <ns2:animationType>EASE_OUT</ns2:animationType>
+                    <ns2:itemId>-1354846179</ns2:itemId>
+                </ns2:action>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="0.0"/>
+                <ns2:top type="ABSOLUTE" value="1.0"/>
+                <ns2:width type="ABSOLUTE" value="768.0"/>
+                <ns2:height type="ABSOLUTE" value="931.0"/>
+                <ns2:itemId>2130080</ns2:itemId>
+                <ns2:itemName>u56e</ns2:itemName>
+                <ns2:logicalName>Dije</ns2:logicalName>
+                <ns2:hidden>true</ns2:hidden>
+                <ns2:normalPath>Common/pagebutton13902_636444014.png</ns2:normalPath>
+                <ns2:action xsi:type="ns2:HideItemAction">
+                    <ns2:animationType>EASE_OUT</ns2:animationType>
+                    <ns2:itemId>2130080</ns2:itemId>
+                </ns2:action>
+            </ns2:item>
+        </ns2:verticalLayer>
+        <ns2:pageId>nuevoproyectodecatalogo_nuevoproyectodecatalogo_u121_u126</ns2:pageId>
+        <ns2:analyticsId>pagina2</ns2:analyticsId>
+        <ns2:title>Página 2</ns2:title>
+        <ns2:verticalSize height="1024.0" width="768.0"/>
+        <ns2:externalDisplayMode>MIRROR</ns2:externalDisplayMode>
+        <ns2:horizontalPageVerticalScrollPager>false</ns2:horizontalPageVerticalScrollPager>
+        <ns2:verticalPageVerticalScrollPager>false</ns2:verticalPageVerticalScrollPager>
+    </ns2:page>
+    <ns2:page>
+        <ns2:verticalIndexImage>nuevoproyectodecatalogo_u175_u17a/VERTICAL/page_index.jpg</ns2:verticalIndexImage>
+        <ns2:verticalLayer>
+            <ns2:name>MAIN_LAYER</ns2:name>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageItem">
+                <ns2:left type="ABSOLUTE" value="0.0"/>
+                <ns2:top type="ABSOLUTE" value="0.0"/>
+                <ns2:width type="ABSOLUTE" value="768.0"/>
+                <ns2:height type="ABSOLUTE" value="1024.0"/>
+                <ns2:itemId>-742007582</ns2:itemId>
+                <ns2:itemName>BACKGROUND_0_nuevoproyectodecatalogo_nuevoproyectodecatalogo_u175_u17a_VERTICAL</ns2:itemName>
+                <ns2:path>nuevoproyectodecatalogo_u175_u17a/VERTICAL/page_3_background.jpg</ns2:path>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="312.0"/>
+                <ns2:top type="ABSOLUTE" value="860.0"/>
+                <ns2:width type="ABSOLUTE" value="144.0"/>
+                <ns2:height type="ABSOLUTE" value="144.0"/>
+                <ns2:itemId>3208415</ns2:itemId>
+                <ns2:itemName>u3a6</ns2:itemName>
+                <ns2:logicalName>home</ns2:logicalName>
+                <ns2:normalPath>Common/pagebutton9343_-1373885655.png</ns2:normalPath>
+                <ns2:action xsi:type="ns2:GoToPageAction">
+                    <ns2:page>0</ns2:page>
+                </ns2:action>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="36.0"/>
+                <ns2:top type="ABSOLUTE" value="810.0"/>
+                <ns2:width type="ABSOLUTE" value="100.0"/>
+                <ns2:height type="ABSOLUTE" value="100.0"/>
+                <ns2:itemId>-1420864367</ns2:itemId>
+                <ns2:itemName>u99b</ns2:itemName>
+                <ns2:logicalName>retroceder</ns2:logicalName>
+                <ns2:normalPath>Common/pagebutton24593_-727864459.png</ns2:normalPath>
+                <ns2:action xsi:type="ns2:GoToPreviousStateAction">
+                    <ns2:itemId>311541826</ns2:itemId>
+                    <ns2:stopInFirst>false</ns2:stopInFirst>
+                </ns2:action>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="632.0"/>
+                <ns2:top type="ABSOLUTE" value="810.0"/>
+                <ns2:width type="ABSOLUTE" value="100.0"/>
+                <ns2:height type="ABSOLUTE" value="100.0"/>
+                <ns2:itemId>-635237431</ns2:itemId>
+                <ns2:itemName>u998</ns2:itemName>
+                <ns2:logicalName>avanzar</ns2:logicalName>
+                <ns2:normalPath>Common/pagebutton24563_904591794.png</ns2:normalPath>
+                <ns2:action xsi:type="ns2:GoToNextStateAction">
+                    <ns2:itemId>311541826</ns2:itemId>
+                    <ns2:stopInLast>false</ns2:stopInLast>
+                </ns2:action>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:MultiStateObjectItem">
+                <ns2:left type="ABSOLUTE" value="86.0"/>
+                <ns2:top type="ABSOLUTE" value="186.0"/>
+                <ns2:width type="ABSOLUTE" value="595.08"/>
+                <ns2:height type="ABSOLUTE" value="595.08"/>
+                <ns2:itemId>311541826</ns2:itemId>
+                <ns2:itemName>u992</ns2:itemName>
+                <ns2:logicalName>Diapositivas</ns2:logicalName>
+                <ns2:stateObject>
+                    <ns2:active>false</ns2:active>
+                    <ns2:stateName>12</ns2:stateName>
+                    <ns2:item xsi:type="ns2:ImageItem">
+                        <ns2:left type="ABSOLUTE" value="0.0"/>
+                        <ns2:top type="ABSOLUTE" value="0.0"/>
+                        <ns2:width type="ABSOLUTE" value="595.08"/>
+                        <ns2:height type="ABSOLUTE" value="595.08"/>
+                        <ns2:itemId>0</ns2:itemId>
+                        <ns2:itemName>12</ns2:itemName>
+                        <ns2:logicalName>12</ns2:logicalName>
+                        <ns2:path>Common/multistateobject245012_1330631129.png</ns2:path>
+                    </ns2:item>
+                </ns2:stateObject>
+                <ns2:stateObject>
+                    <ns2:active>true</ns2:active>
+                    <ns2:stateName>9</ns2:stateName>
+                    <ns2:item xsi:type="ns2:ImageItem">
+                        <ns2:left type="ABSOLUTE" value="0.0"/>
+                        <ns2:top type="ABSOLUTE" value="0.0"/>
+                        <ns2:width type="ABSOLUTE" value="595.08"/>
+                        <ns2:height type="ABSOLUTE" value="595.08"/>
+                        <ns2:itemId>0</ns2:itemId>
+                        <ns2:itemName>9</ns2:itemName>
+                        <ns2:logicalName>9</ns2:logicalName>
+                        <ns2:path>Common/multistateobject24509_604445271.png</ns2:path>
+                    </ns2:item>
+                </ns2:stateObject>
+                <ns2:stateObject>
+                    <ns2:active>false</ns2:active>
+                    <ns2:stateName>10</ns2:stateName>
+                    <ns2:item xsi:type="ns2:ImageItem">
+                        <ns2:left type="ABSOLUTE" value="0.0"/>
+                        <ns2:top type="ABSOLUTE" value="0.0"/>
+                        <ns2:width type="ABSOLUTE" value="595.08"/>
+                        <ns2:height type="ABSOLUTE" value="595.08"/>
+                        <ns2:itemId>0</ns2:itemId>
+                        <ns2:itemName>10</ns2:itemName>
+                        <ns2:logicalName>10</ns2:logicalName>
+                        <ns2:path>Common/multistateobject245010_1328784087.png</ns2:path>
+                    </ns2:item>
+                </ns2:stateObject>
+                <ns2:stateObject>
+                    <ns2:active>false</ns2:active>
+                    <ns2:stateName>11</ns2:stateName>
+                    <ns2:item xsi:type="ns2:ImageItem">
+                        <ns2:left type="ABSOLUTE" value="0.0"/>
+                        <ns2:top type="ABSOLUTE" value="0.0"/>
+                        <ns2:width type="ABSOLUTE" value="595.08"/>
+                        <ns2:height type="ABSOLUTE" value="595.08"/>
+                        <ns2:itemId>0</ns2:itemId>
+                        <ns2:itemName>11</ns2:itemName>
+                        <ns2:logicalName>11</ns2:logicalName>
+                        <ns2:path>Common/multistateobject245011_1329707608.png</ns2:path>
+                    </ns2:item>
+                </ns2:stateObject>
+                <ns2:stateObject>
+                    <ns2:active>false</ns2:active>
+                    <ns2:stateName>13</ns2:stateName>
+                    <ns2:item xsi:type="ns2:ImageItem">
+                        <ns2:left type="ABSOLUTE" value="0.0"/>
+                        <ns2:top type="ABSOLUTE" value="0.0"/>
+                        <ns2:width type="ABSOLUTE" value="595.08"/>
+                        <ns2:height type="ABSOLUTE" value="595.08"/>
+                        <ns2:itemId>0</ns2:itemId>
+                        <ns2:itemName>13</ns2:itemName>
+                        <ns2:logicalName>13</ns2:logicalName>
+                        <ns2:path>Common/multistateobject245013_1331554650.png</ns2:path>
+                    </ns2:item>
+                </ns2:stateObject>
+            </ns2:item>
+        </ns2:verticalLayer>
+        <ns2:pageId>nuevoproyectodecatalogo_nuevoproyectodecatalogo_u175_u17a</ns2:pageId>
+        <ns2:analyticsId>pagina3</ns2:analyticsId>
+        <ns2:title>Página 3</ns2:title>
+        <ns2:verticalSize height="1024.0" width="768.0"/>
+        <ns2:externalDisplayMode>MIRROR</ns2:externalDisplayMode>
+        <ns2:horizontalPageVerticalScrollPager>false</ns2:horizontalPageVerticalScrollPager>
+        <ns2:verticalPageVerticalScrollPager>false</ns2:verticalPageVerticalScrollPager>
+    </ns2:page>
+    <ns2:page>
+        <ns2:verticalIndexImage>nuevoproyectodecatalogo_u203_u208/VERTICAL/page_index.jpg</ns2:verticalIndexImage>
+        <ns2:verticalLayer>
+            <ns2:name>MAIN_LAYER</ns2:name>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageItem">
+                <ns2:left type="ABSOLUTE" value="0.0"/>
+                <ns2:top type="ABSOLUTE" value="0.0"/>
+                <ns2:width type="ABSOLUTE" value="768.0"/>
+                <ns2:height type="ABSOLUTE" value="1024.0"/>
+                <ns2:itemId>459897193</ns2:itemId>
+                <ns2:itemName>BACKGROUND_0_nuevoproyectodecatalogo_nuevoproyectodecatalogo_u203_u208_VERTICAL</ns2:itemName>
+                <ns2:path>nuevoproyectodecatalogo_u203_u208/VERTICAL/page_4_background.jpg</ns2:path>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="312.0"/>
+                <ns2:top type="ABSOLUTE" value="860.0"/>
+                <ns2:width type="ABSOLUTE" value="144.0"/>
+                <ns2:height type="ABSOLUTE" value="144.0"/>
+                <ns2:itemId>3208415</ns2:itemId>
+                <ns2:itemName>u3a6</ns2:itemName>
+                <ns2:logicalName>home</ns2:logicalName>
+                <ns2:normalPath>Common/pagebutton9344_2029406281.png</ns2:normalPath>
+                <ns2:action xsi:type="ns2:GoToPageAction">
+                    <ns2:page>0</ns2:page>
+                </ns2:action>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ScrollImageItem">
+                <ns2:left type="ABSOLUTE" value="36.0"/>
+                <ns2:top type="ABSOLUTE" value="289.5"/>
+                <ns2:width type="ABSOLUTE" value="224.0"/>
+                <ns2:height type="ABSOLUTE" value="241.5"/>
+                <ns2:itemId>2130080</ns2:itemId>
+                <ns2:itemName>ub3e</ns2:itemName>
+                <ns2:logicalName>Dije</ns2:logicalName>
+                <ns2:path>Common/pagebutton28784_1330531256.png</ns2:path>
+                <ns2:contentWidth type="ABSOLUTE" value="548.0"/>
+                <ns2:contentHeight type="ABSOLUTE" value="548.0"/>
+                <ns2:showBars>false</ns2:showBars>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ScrollImageItem">
+                <ns2:left type="ABSOLUTE" value="36.0"/>
+                <ns2:top type="ABSOLUTE" value="620.0"/>
+                <ns2:width type="ABSOLUTE" value="696.0"/>
+                <ns2:height type="ABSOLUTE" value="207.089"/>
+                <ns2:itemId>-1265168259</ns2:itemId>
+                <ns2:itemName>ub3c</ns2:itemName>
+                <ns2:logicalName>Historia</ns2:logicalName>
+                <ns2:path>Common/pagebutton28764_-444476106.png</ns2:path>
+                <ns2:contentWidth type="ABSOLUTE" value="696.0"/>
+                <ns2:contentHeight type="ABSOLUTE" value="502.0"/>
+                <ns2:showBars>true</ns2:showBars>
+            </ns2:item>
+        </ns2:verticalLayer>
+        <ns2:pageId>nuevoproyectodecatalogo_nuevoproyectodecatalogo_u203_u208</ns2:pageId>
+        <ns2:analyticsId>pagina4</ns2:analyticsId>
+        <ns2:title>Página 4</ns2:title>
+        <ns2:verticalSize height="1024.0" width="768.0"/>
+        <ns2:externalDisplayMode>MIRROR</ns2:externalDisplayMode>
+        <ns2:horizontalPageVerticalScrollPager>false</ns2:horizontalPageVerticalScrollPager>
+        <ns2:verticalPageVerticalScrollPager>false</ns2:verticalPageVerticalScrollPager>
+    </ns2:page>
+    <ns2:page>
+        <ns2:verticalIndexImage>nuevoproyectodecatalogo_u245_u24a/VERTICAL/page_index.jpg</ns2:verticalIndexImage>
+        <ns2:verticalLayer>
+            <ns2:name>MAIN_LAYER</ns2:name>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageItem">
+                <ns2:left type="ABSOLUTE" value="0.0"/>
+                <ns2:top type="ABSOLUTE" value="0.0"/>
+                <ns2:width type="ABSOLUTE" value="768.0"/>
+                <ns2:height type="ABSOLUTE" value="1024.0"/>
+                <ns2:itemId>-927093150</ns2:itemId>
+                <ns2:itemName>BACKGROUND_0_nuevoproyectodecatalogo_nuevoproyectodecatalogo_u245_u24a_VERTICAL</ns2:itemName>
+                <ns2:path>nuevoproyectodecatalogo_u245_u24a/VERTICAL/page_5_background.jpg</ns2:path>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="312.0"/>
+                <ns2:top type="ABSOLUTE" value="860.0"/>
+                <ns2:width type="ABSOLUTE" value="144.0"/>
+                <ns2:height type="ABSOLUTE" value="144.0"/>
+                <ns2:itemId>3208415</ns2:itemId>
+                <ns2:itemName>u3a6</ns2:itemName>
+                <ns2:logicalName>home</ns2:logicalName>
+                <ns2:normalPath>Common/pagebutton9345_506941578.png</ns2:normalPath>
+                <ns2:action xsi:type="ns2:GoToPageAction">
+                    <ns2:page>0</ns2:page>
+                </ns2:action>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="214.0"/>
+                <ns2:top type="ABSOLUTE" value="182.0"/>
+                <ns2:width type="ABSOLUTE" value="365.5"/>
+                <ns2:height type="ABSOLUTE" value="365.5"/>
+                <ns2:itemId>-1331826543</ns2:itemId>
+                <ns2:itemName>u24b</ns2:itemName>
+                <ns2:logicalName>dije 1</ns2:logicalName>
+                <ns2:hidden>true</ns2:hidden>
+                <ns2:normalPath>Common/pagebutton5875_1933452964.png</ns2:normalPath>
+                <ns2:action xsi:type="ns2:ShowItemAction">
+                    <ns2:animationType>FLIP_LEFT</ns2:animationType>
+                    <ns2:itemId>-1331826543</ns2:itemId>
+                </ns2:action>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ButtonItem">
+                <ns2:left type="ABSOLUTE" value="280.0"/>
+                <ns2:top type="ABSOLUTE" value="218.445"/>
+                <ns2:width type="ABSOLUTE" value="410.6"/>
+                <ns2:height type="ABSOLUTE" value="391.555"/>
+                <ns2:itemId>1738010965</ns2:itemId>
+                <ns2:itemName>u29d</ns2:itemName>
+                <ns2:logicalName>Botón 3</ns2:logicalName>
+            </ns2:item>
+        </ns2:verticalLayer>
+        <ns2:pageId>nuevoproyectodecatalogo_nuevoproyectodecatalogo_u245_u24a</ns2:pageId>
+        <ns2:analyticsId>pagina5</ns2:analyticsId>
+        <ns2:title>Página 5</ns2:title>
+        <ns2:verticalSize height="1024.0" width="768.0"/>
+        <ns2:externalDisplayMode>MIRROR</ns2:externalDisplayMode>
+        <ns2:horizontalPageVerticalScrollPager>false</ns2:horizontalPageVerticalScrollPager>
+        <ns2:verticalPageVerticalScrollPager>false</ns2:verticalPageVerticalScrollPager>
+        <ns2:backgroundColor>#ccffff</ns2:backgroundColor>
+    </ns2:page>
+    <ns2:page>
+        <ns2:verticalIndexImage>nuevoproyectodecatalogo_u2a2_u2a7/VERTICAL/page_index.jpg</ns2:verticalIndexImage>
+        <ns2:verticalLayer>
+            <ns2:name>MAIN_LAYER</ns2:name>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageItem">
+                <ns2:left type="ABSOLUTE" value="0.0"/>
+                <ns2:top type="ABSOLUTE" value="0.0"/>
+                <ns2:width type="ABSOLUTE" value="768.0"/>
+                <ns2:height type="ABSOLUTE" value="1024.0"/>
+                <ns2:itemId>2046184617</ns2:itemId>
+                <ns2:itemName>BACKGROUND_0_nuevoproyectodecatalogo_nuevoproyectodecatalogo_u2a2_u2a7_VERTICAL</ns2:itemName>
+                <ns2:path>nuevoproyectodecatalogo_u2a2_u2a7/VERTICAL/page_6_background.jpg</ns2:path>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="312.0"/>
+                <ns2:top type="ABSOLUTE" value="860.0"/>
+                <ns2:width type="ABSOLUTE" value="144.0"/>
+                <ns2:height type="ABSOLUTE" value="144.0"/>
+                <ns2:itemId>3208415</ns2:itemId>
+                <ns2:itemName>u3a6</ns2:itemName>
+                <ns2:logicalName>home</ns2:logicalName>
+                <ns2:normalPath>Common/pagebutton9346_-2063011344.png</ns2:normalPath>
+                <ns2:action xsi:type="ns2:GoToPageAction">
+                    <ns2:page>0</ns2:page>
+                </ns2:action>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="214.0"/>
+                <ns2:top type="ABSOLUTE" value="182.0"/>
+                <ns2:width type="ABSOLUTE" value="365.5"/>
+                <ns2:height type="ABSOLUTE" value="365.5"/>
+                <ns2:itemId>-1331826542</ns2:itemId>
+                <ns2:itemName>u2a8</ns2:itemName>
+                <ns2:logicalName>dije 2</ns2:logicalName>
+                <ns2:hidden>true</ns2:hidden>
+                <ns2:normalPath>Common/pagebutton6806_-66545596.png</ns2:normalPath>
+                <ns2:action xsi:type="ns2:ShowItemAction">
+                    <ns2:animationType>FLIP_LEFT</ns2:animationType>
+                    <ns2:itemId>-1331826542</ns2:itemId>
+                </ns2:action>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:CameraAlphaImageItem">
+                <ns2:left type="ABSOLUTE" value="106.0"/>
+                <ns2:top type="ABSOLUTE" value="126.0"/>
+                <ns2:width type="ABSOLUTE" value="586.0"/>
+                <ns2:height type="ABSOLUTE" value="652.0"/>
+                <ns2:itemId>67503</ns2:itemId>
+                <ns2:itemName>uf8e</ns2:itemName>
+                <ns2:logicalName>Cam</ns2:logicalName>
+                <ns2:frontCamera>false</ns2:frontCamera>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="177.512"/>
+                <ns2:top type="ABSOLUTE" value="112.502"/>
+                <ns2:width type="ABSOLUTE" value="414.988"/>
+                <ns2:height type="ABSOLUTE" value="842.33"/>
+                <ns2:itemId>3343957</ns2:itemId>
+                <ns2:itemName>uf89</ns2:itemName>
+                <ns2:logicalName>mano</ns2:logicalName>
+                <ns2:normalPath>Common/pagebutton39776_367720852.png</ns2:normalPath>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="344.0"/>
+                <ns2:top type="ABSOLUTE" value="312.501"/>
+                <ns2:width type="ABSOLUTE" value="74.807"/>
+                <ns2:height type="ABSOLUTE" value="46.109"/>
+                <ns2:itemId>-1413117037</ns2:itemId>
+                <ns2:itemName>uf8b</ns2:itemName>
+                <ns2:logicalName>anillo</ns2:logicalName>
+                <ns2:normalPath>Common/pagebutton39796_2142728214.png</ns2:normalPath>
+            </ns2:item>
+        </ns2:verticalLayer>
+        <ns2:pageId>nuevoproyectodecatalogo_nuevoproyectodecatalogo_u2a2_u2a7</ns2:pageId>
+        <ns2:analyticsId>pagina6</ns2:analyticsId>
+        <ns2:title>Página 6</ns2:title>
+        <ns2:verticalSize height="1024.0" width="768.0"/>
+        <ns2:externalDisplayMode>MIRROR</ns2:externalDisplayMode>
+        <ns2:horizontalPageVerticalScrollPager>false</ns2:horizontalPageVerticalScrollPager>
+        <ns2:verticalPageVerticalScrollPager>false</ns2:verticalPageVerticalScrollPager>
+    </ns2:page>
+    <ns2:page>
+        <ns2:verticalIndexImage>nuevoproyectodecatalogo_u99f_u9a4/VERTICAL/page_index.jpg</ns2:verticalIndexImage>
+        <ns2:verticalLayer>
+            <ns2:name>MAIN_LAYER</ns2:name>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageItem">
+                <ns2:left type="ABSOLUTE" value="0.0"/>
+                <ns2:top type="ABSOLUTE" value="0.0"/>
+                <ns2:width type="ABSOLUTE" value="768.0"/>
+                <ns2:height type="ABSOLUTE" value="1024.0"/>
+                <ns2:itemId>157383496</ns2:itemId>
+                <ns2:itemName>BACKGROUND_0_nuevoproyectodecatalogo_nuevoproyectodecatalogo_u99f_u9a4_VERTICAL</ns2:itemName>
+                <ns2:path>nuevoproyectodecatalogo_u99f_u9a4/VERTICAL/page_7_background.jpg</ns2:path>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="312.0"/>
+                <ns2:top type="ABSOLUTE" value="860.0"/>
+                <ns2:width type="ABSOLUTE" value="144.0"/>
+                <ns2:height type="ABSOLUTE" value="144.0"/>
+                <ns2:itemId>3208415</ns2:itemId>
+                <ns2:itemName>u3a6</ns2:itemName>
+                <ns2:logicalName>home</ns2:logicalName>
+                <ns2:normalPath>Common/pagebutton9347_1506624109.png</ns2:normalPath>
+                <ns2:action xsi:type="ns2:GoToPageAction">
+                    <ns2:page>0</ns2:page>
+                </ns2:action>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:VideoItem">
+                <ns2:left type="ABSOLUTE" value="36.0"/>
+                <ns2:top type="ABSOLUTE" value="298.0"/>
+                <ns2:width type="ABSOLUTE" value="696.0"/>
+                <ns2:height type="ABSOLUTE" value="398.0"/>
+                <ns2:itemId>3580352</ns2:itemId>
+                <ns2:itemName>ua0c</ns2:itemName>
+                <ns2:logicalName>Hyperlapse_1.mov</ns2:logicalName>
+                <ns2:autoPlay>false</ns2:autoPlay>
+                <ns2:autoPlayAlways>true</ns2:autoPlayAlways>
+                <ns2:thumbPath>Common/hyperlapse1_-323172418.mov_thumb.jpg</ns2:thumbPath>
+                <ns2:path>Common/hyperlapse1_-323172418.mov</ns2:path>
+                <ns2:fullScreen>true</ns2:fullScreen>
+                <ns2:loop>false</ns2:loop>
+                <ns2:controlsStyle>BASIC</ns2:controlsStyle>
+            </ns2:item>
+            <ns2:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:ImageButtonItem">
+                <ns2:left type="ABSOLUTE" value="334.0"/>
+                <ns2:top type="ABSOLUTE" value="447.0"/>
+                <ns2:width type="ABSOLUTE" value="100.0"/>
+                <ns2:height type="ABSOLUTE" value="100.0"/>
+                <ns2:itemId>-1956234946</ns2:itemId>
+                <ns2:itemName>ua13</ns2:itemName>
+                <ns2:logicalName>Botón 11</ns2:logicalName>
+                <ns2:normalPath>Common/pagebutton25797_-59031304.png</ns2:normalPath>
+                <ns2:action xsi:type="ns2:PlayMovieAction">
+                    <ns2:itemId>3580352</ns2:itemId>
+                </ns2:action>
+                <ns2:action xsi:type="ns2:HideItemAction">
+                    <ns2:itemId>-1956234946</ns2:itemId>
+                </ns2:action>
+            </ns2:item>
+        </ns2:verticalLayer>
+        <ns2:pageId>nuevoproyectodecatalogo_nuevoproyectodecatalogo_u99f_u9a4</ns2:pageId>
+        <ns2:analyticsId>pagina7</ns2:analyticsId>
+        <ns2:title>Página 7</ns2:title>
+        <ns2:verticalSize height="1024.0" width="768.0"/>
+        <ns2:externalDisplayMode>MIRROR</ns2:externalDisplayMode>
+        <ns2:horizontalPageVerticalScrollPager>false</ns2:horizontalPageVerticalScrollPager>
+        <ns2:verticalPageVerticalScrollPager>false</ns2:verticalPageVerticalScrollPager>
+    </ns2:page>
+    <ns2:indexPage>
+        <ns2:verticalIndexImage>nuevoproyectodecatalogo_ued_uf2/VERTICAL/page_index.jpg</ns2:verticalIndexImage>
+        <ns2:numPage>0</ns2:numPage>
+        <ns2:title>Página 1</ns2:title>
+    </ns2:indexPage>
+    <ns2:indexPage>
+        <ns2:verticalIndexImage>nuevoproyectodecatalogo_u121_u126/VERTICAL/page_index.jpg</ns2:verticalIndexImage>
+        <ns2:numPage>1</ns2:numPage>
+        <ns2:title>Página 2</ns2:title>
+    </ns2:indexPage>
+    <ns2:indexPage>
+        <ns2:verticalIndexImage>nuevoproyectodecatalogo_u175_u17a/VERTICAL/page_index.jpg</ns2:verticalIndexImage>
+        <ns2:numPage>2</ns2:numPage>
+        <ns2:title>Página 3</ns2:title>
+    </ns2:indexPage>
+    <ns2:indexPage>
+        <ns2:verticalIndexImage>nuevoproyectodecatalogo_u203_u208/VERTICAL/page_index.jpg</ns2:verticalIndexImage>
+        <ns2:numPage>3</ns2:numPage>
+        <ns2:title>Página 4</ns2:title>
+    </ns2:indexPage>
+    <ns2:indexPage>
+        <ns2:verticalIndexImage>nuevoproyectodecatalogo_u245_u24a/VERTICAL/page_index.jpg</ns2:verticalIndexImage>
+        <ns2:numPage>4</ns2:numPage>
+        <ns2:title>Página 5</ns2:title>
+    </ns2:indexPage>
+    <ns2:indexPage>
+        <ns2:verticalIndexImage>nuevoproyectodecatalogo_u2a2_u2a7/VERTICAL/page_index.jpg</ns2:verticalIndexImage>
+        <ns2:numPage>5</ns2:numPage>
+        <ns2:title>Página 6</ns2:title>
+    </ns2:indexPage>
+    <ns2:indexPage>
+        <ns2:verticalIndexImage>nuevoproyectodecatalogo_u99f_u9a4/VERTICAL/page_index.jpg</ns2:verticalIndexImage>
+        <ns2:numPage>6</ns2:numPage>
+        <ns2:title>Página 7</ns2:title>
+    </ns2:indexPage>
+    <ns2:numPages>7</ns2:numPages>
+    <ns2:fullScreen>true</ns2:fullScreen>
+    <ns2:catalogOrganizationType>PAGES</ns2:catalogOrganizationType>
+    <ns2:version>5</ns2:version>
+    <ns2:downloadableResource size="3810" checksum="57EE891BCD489A28A991E34EF88D308D" relativePath="nuevoproyectodecatalogo_u121_u126/VERTICAL/page_index.jpg"/>
+    <ns2:downloadableResource size="57731" checksum="B8F54C551D82D20B76839FAF376B841B" relativePath="nuevoproyectodecatalogo_u203_u208/VERTICAL/page_4_background.jpg"/>
+    <ns2:downloadableResource size="5264" checksum="DAF96A7BB74FB8F846F58175C6504D1A" relativePath="Common/pagebutton9346_-2063011344.png"/>
+    <ns2:downloadableResource size="142477" checksum="E74CC26C35DA10029CEF28EEC91C1242" relativePath="Common/pagebutton28764_-444476106.png"/>
+    <ns2:downloadableResource size="477786" checksum="AC2F1C84713D1431A3BA6298E21788AF" relativePath="Common/multistateobject24509_604445271.png"/>
+    <ns2:downloadableResource size="1203" checksum="8343FDBCC13A5726E877F256C392F646" relativePath="Common/pagebutton25797_-59031304.png"/>
+    <ns2:downloadableResource size="44566" checksum="2B7DF03A74C2F5E5E3EE6DAF7947C32D" relativePath="Common/pagebutton13922_-1883515920.png"/>
+    <ns2:downloadableResource size="5264" checksum="DAF96A7BB74FB8F846F58175C6504D1A" relativePath="Common/pagebutton9343_-1373885655.png"/>
+    <ns2:downloadableResource size="47842" checksum="D0061C6412B20BC432AB4DD63692BBF1" relativePath="nuevoproyectodecatalogo_u121_u126/VERTICAL/page_2_background.jpg"/>
+    <ns2:downloadableResource size="1447" checksum="9A6A3F904681684A1309775BBA1D6C9A" relativePath="Common/pagebutton24593_-727864459.png"/>
+    <ns2:downloadableResource size="371225" checksum="EE5DE52A9890D9F3B982DCCFDDB50C53" relativePath="Common/multistateobject245010_1328784087.png"/>
+    <ns2:downloadableResource size="73022" checksum="4D0B70278906F63E9CD2CD3114AC8843" relativePath="nuevoproyectodecatalogo_ued_uf2/VERTICAL/page_1_background.jpg"/>
+    <ns2:downloadableResource size="33976" checksum="BEAE2B4052D5353E7270FB2DBF00CBB9" relativePath="nuevoproyectodecatalogo_u175_u17a/VERTICAL/page_3_background.jpg"/>
+    <ns2:downloadableResource size="3925" checksum="A02F7EA903989CB3FDD49EF221D94768" relativePath="nuevoproyectodecatalogo_ued_uf2/VERTICAL/page_index.jpg"/>
+    <ns2:downloadableResource size="6208" checksum="154CAD9D8E7EE48F2818878EFF7989CB" relativePath="nuevoproyectodecatalogo_u99f_u9a4/VERTICAL/page_index.jpg"/>
+    <ns2:downloadableResource size="611976" checksum="CF0AB156A12F93BC27E2E16D06672AF0" relativePath="Common/multistateobject245012_1330631129.png"/>
+    <ns2:downloadableResource size="4163" checksum="54F64D1EC91B6B94AD6971BA6C55CB64" relativePath="nuevoproyectodecatalogo_u245_u24a/VERTICAL/page_index.jpg"/>
+    <ns2:downloadableResource size="292014" checksum="4786E3F6327C2914411F55670D93A4FF" relativePath="Common/multistateobject245013_1331554650.png"/>
+    <ns2:downloadableResource size="5264" checksum="DAF96A7BB74FB8F846F58175C6504D1A" relativePath="Common/pagebutton9342_-115703967.png"/>
+    <ns2:downloadableResource size="365534" checksum="9CDA75217DF7BF393FC53B8AAA2305AB" relativePath="Common/pagebutton28784_1330531256.png"/>
+    <ns2:downloadableResource size="5264" checksum="DAF96A7BB74FB8F846F58175C6504D1A" relativePath="Common/pagebutton9347_1506624109.png"/>
+    <ns2:downloadableResource size="4767" checksum="C30CB236ACB9F5737CE0B26D2D78D449" relativePath="nuevoproyectodecatalogo_u175_u17a/VERTICAL/page_index.jpg"/>
+    <ns2:downloadableResource size="2715" checksum="34CD533EC9AEC93E58D7A5AF811D6AA6" relativePath="nuevoproyectodecatalogo_u2a2_u2a7/VERTICAL/page_index.jpg"/>
+    <ns2:downloadableResource size="102439" checksum="3095DEB4BDA67211540DDAEBCFD235F5" relativePath="nuevoproyectodecatalogo_u245_u24a/VERTICAL/page_5_background.jpg"/>
+    <ns2:downloadableResource size="6420" checksum="42AC6715833ECC3C1B4646916B776689" relativePath="nuevoproyectodecatalogo_u203_u208/VERTICAL/page_index.jpg"/>
+    <ns2:downloadableResource size="262267" checksum="452160B64E21A28FFF42FB3CF30F8938" relativePath="Common/pagebutton5875_1933452964.png"/>
+    <ns2:downloadableResource size="1203" checksum="8343FDBCC13A5726E877F256C392F646" relativePath="Common/pagebutton24563_904591794.png"/>
+    <ns2:downloadableResource size="5264" checksum="DAF96A7BB74FB8F846F58175C6504D1A" relativePath="Common/pagebutton9344_2029406281.png"/>
+    <ns2:downloadableResource size="262267" checksum="452160B64E21A28FFF42FB3CF30F8938" relativePath="Common/pagebutton6806_-66545596.png"/>
+    <ns2:downloadableResource size="28470" checksum="882CBB75E2516EEE4143F6BFD5747DC3" relativePath="Common/pagebutton39796_2142728214.png"/>
+    <ns2:downloadableResource size="189677" checksum="4F1F6276BAB833EF1E6E4090E24EF768" relativePath="Common/multistateobject245011_1329707608.png"/>
+    <ns2:downloadableResource size="26063" checksum="7B9E935FA308BE4174738DFB2FB59560" relativePath="Common/pagebutton13952_778995123.png"/>
+    <ns2:downloadableResource size="38464313" checksum="4A3DC1B8901267D6C5BF9352EC57CB45" relativePath="Common/hyperlapse1_-323172418.mov"/>
+    <ns2:downloadableResource size="75578" checksum="B8310E915FC4A1C924E87A8A9AC9E6A3" relativePath="nuevoproyectodecatalogo_u99f_u9a4/VERTICAL/page_7_background.jpg"/>
+    <ns2:downloadableResource size="25412" checksum="CCBBAF3DEAE951EDB380130BFB21585D" relativePath="nuevoproyectodecatalogo_u2a2_u2a7/VERTICAL/page_6_background.jpg"/>
+    <ns2:downloadableResource size="311765" checksum="2E24819DFFE6E903D12DF79A83FBDAFF" relativePath="Common/pagebutton13902_636444014.png"/>
+    <ns2:downloadableResource size="46646" checksum="D57373883620B640DEF37B0C50684C16" relativePath="Common/pagebutton39776_367720852.png"/>
+    <ns2:downloadableResource size="5264" checksum="DAF96A7BB74FB8F846F58175C6504D1A" relativePath="Common/pagebutton9345_506941578.png"/>
+    <ns2:downloadableResource size="175713" checksum="354111803C18ECDD000CF7FD9B3FE331" relativePath="Common/pagebutton13912_1523947695.png"/>
+    <ns2:zoomMode>NONE</ns2:zoomMode>
+    <ns2:indexType>NORMAL</ns2:indexType>
+</interactiveCatalog>

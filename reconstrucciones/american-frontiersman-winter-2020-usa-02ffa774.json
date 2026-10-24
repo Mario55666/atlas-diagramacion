@@ -1,0 +1,1452 @@
+{
+ "version": "1.0",
+ "fecha": "2026-10-24",
+ "revista": {
+  "id": "american-frontiersman-winter-2020-usa-02ffa774",
+  "titulo": "American Frontiersman - Winter 2020 USA",
+  "archivo": "American Frontiersman - Winter 2020 USA.pdf"
+ },
+ "metodo": "Perfil medido automáticamente desde el JSON de pdf2json (capa de texto) y el OCR de las páginas sin texto, con el paquete de reconstrucción en InDesign de la Biblioteca PDF. Cuerpos y anchos calibrados con pdf.js. Los márgenes y las columnas se estiman con el texto de cuerpo; los tipos de página y las formas no se interpretaron.",
+ "perfil": {
+  "formato_mm": "277 × 364",
+  "ratio": 0.76,
+  "paginas_totales": 116,
+  "muestra": 116,
+  "via_de_lectura": "capa de texto + OCR en 3 páginas sin texto",
+  "paginas_sin_texto": 0.04,
+  "paginas_con_ocr": [
+   1,
+   67,
+   115
+  ],
+  "cuerpo_base_pt": 12,
+  "columnas_texto": 3,
+  "margenes_pct": {
+   "izquierdo": 7.19,
+   "derecho": 7.56,
+   "superior": 24.85,
+   "inferior": 7.01
+  },
+  "escala_pt": {
+   "titular": 30,
+   "subtitulo": 17.5,
+   "cuerpo": 12,
+   "pie": 10
+  }
+ },
+ "paginas": [
+  {
+   "pagina": 1,
+   "textos": 0,
+   "ocr": true,
+   "columnas": null
+  },
+  {
+   "pagina": 2,
+   "textos": 37,
+   "ocr": false,
+   "cuerpo_pt": 15,
+   "columnas": null
+  },
+  {
+   "pagina": 3,
+   "textos": 55,
+   "ocr": false,
+   "cuerpo_pt": 21,
+   "columnas": null
+  },
+  {
+   "pagina": 4,
+   "textos": 130,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 10.36,
+    "derecho": 31.63,
+    "superior": 31.29,
+    "inferior": 6.99
+   }
+  },
+  {
+   "pagina": 5,
+   "textos": 169,
+   "ocr": false,
+   "cuerpo_pt": 11,
+   "columnas": 4,
+   "margenes_pct": {
+    "izquierdo": 7.69,
+    "derecho": 20.49,
+    "superior": 30.84,
+    "inferior": 5.51
+   }
+  },
+  {
+   "pagina": 6,
+   "textos": 557,
+   "ocr": false,
+   "cuerpo_pt": 7.5,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 35.08,
+    "superior": 7.56,
+    "inferior": 8.24
+   }
+  },
+  {
+   "pagina": 7,
+   "textos": 113,
+   "ocr": false,
+   "cuerpo_pt": 13.5,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 6.9,
+    "derecho": 9.17,
+    "superior": 30.69,
+    "inferior": 7.25
+   }
+  },
+  {
+   "pagina": 8,
+   "textos": 3,
+   "ocr": false,
+   "cuerpo_pt": 21,
+   "columnas": null
+  },
+  {
+   "pagina": 9,
+   "textos": 152,
+   "ocr": false,
+   "cuerpo_pt": 12.5,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 10.62,
+    "derecho": 38.65,
+    "superior": 71.15,
+    "inferior": 8.77
+   }
+  },
+  {
+   "pagina": 10,
+   "textos": 113,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.27,
+    "superior": 11.2,
+    "inferior": 8.53
+   }
+  },
+  {
+   "pagina": 11,
+   "textos": 109,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.3,
+    "superior": 64.44,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 12,
+   "textos": 121,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.48,
+    "superior": 12.72,
+    "inferior": 26.79
+   }
+  },
+  {
+   "pagina": 13,
+   "textos": 38,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 6.23,
+    "superior": 52.6,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 14,
+   "textos": 289,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 11.94,
+    "derecho": 7.67,
+    "superior": 30.98,
+    "inferior": 10.05
+   }
+  },
+  {
+   "pagina": 15,
+   "textos": 113,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 6,
+   "margenes_pct": {
+    "izquierdo": 62.49,
+    "derecho": 6.43,
+    "superior": 30.98,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 16,
+   "textos": 117,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.19,
+    "superior": 14.24,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 17,
+   "textos": 507,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.65,
+    "superior": 17.29,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 18,
+   "textos": 190,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 10,
+    "derecho": 7.41,
+    "superior": 43.14,
+    "inferior": 11.58
+   }
+  },
+  {
+   "pagina": 19,
+   "textos": 55,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 70.42,
+    "derecho": 6.37,
+    "superior": 17.29,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 20,
+   "textos": 193,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.56,
+    "superior": 11.2,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 21,
+   "textos": 94,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 12.08,
+    "derecho": 6.43,
+    "superior": 24.85,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 22,
+   "textos": 278,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 8.33,
+    "superior": 11.2,
+    "inferior": 9.64
+   }
+  },
+  {
+   "pagina": 23,
+   "textos": 1420,
+   "ocr": false,
+   "cuerpo_pt": 13.5,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 7.78,
+    "derecho": 9.01,
+    "superior": 25.81,
+    "inferior": 17.33
+   }
+  },
+  {
+   "pagina": 24,
+   "textos": 13,
+   "ocr": false,
+   "cuerpo_pt": 9.5,
+   "columnas": null
+  },
+  {
+   "pagina": 25,
+   "textos": 98,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.17,
+    "superior": 67.49,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 26,
+   "textos": 156,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 23.33,
+    "derecho": 7.58,
+    "superior": 43.14,
+    "inferior": 8.53
+   }
+  },
+  {
+   "pagina": 27,
+   "textos": 16,
+   "ocr": false,
+   "cuerpo_pt": 12.5,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 12.66,
+    "derecho": 6.17,
+    "superior": 73.74,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 28,
+   "textos": 99,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.88,
+    "superior": 42.96,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 29,
+   "textos": 142,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.33,
+    "superior": 11.2,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 30,
+   "textos": 260,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 11.11,
+    "derecho": 32.41,
+    "superior": 37.06,
+    "inferior": 32.87
+   }
+  },
+  {
+   "pagina": 31,
+   "textos": 0,
+   "ocr": false,
+   "columnas": null
+  },
+  {
+   "pagina": 32,
+   "textos": 144,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.4,
+    "superior": 11.2,
+    "inferior": 8.53
+   }
+  },
+  {
+   "pagina": 33,
+   "textos": 164,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.55,
+    "superior": 12.72,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 34,
+   "textos": 115,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 12.4,
+    "superior": 17.34,
+    "inferior": 12.22
+   }
+  },
+  {
+   "pagina": 35,
+   "textos": 96,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 13.23,
+    "derecho": 6.37,
+    "superior": 34.02,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 36,
+   "textos": 117,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 12.29,
+    "derecho": 13.61,
+    "superior": 22.33,
+    "inferior": 11.8
+   }
+  },
+  {
+   "pagina": 37,
+   "textos": 119,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 13.13,
+    "derecho": 12.74,
+    "superior": 15.26,
+    "inferior": 11.87
+   }
+  },
+  {
+   "pagina": 38,
+   "textos": 239,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 8.68,
+    "superior": 44.67,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 39,
+   "textos": 27,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.17,
+    "superior": 75.09,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 40,
+   "textos": 272,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 5,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.89,
+    "superior": 11.2,
+    "inferior": 8.53
+   }
+  },
+  {
+   "pagina": 41,
+   "textos": 155,
+   "ocr": false,
+   "cuerpo_pt": 12.5,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 12.5,
+    "derecho": 11.24,
+    "superior": 18.5,
+    "inferior": 11.28
+   }
+  },
+  {
+   "pagina": 42,
+   "textos": 195,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 24.8,
+    "superior": 61.4,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 43,
+   "textos": 0,
+   "ocr": false,
+   "columnas": null
+  },
+  {
+   "pagina": 44,
+   "textos": 373,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 8.13,
+    "superior": 49.23,
+    "inferior": 11.58
+   }
+  },
+  {
+   "pagina": 45,
+   "textos": 585,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.78,
+    "superior": 18.81,
+    "inferior": 11.58
+   }
+  },
+  {
+   "pagina": 46,
+   "textos": 70,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 9.37,
+    "derecho": 16.85,
+    "superior": 61.4,
+    "inferior": 8.53
+   }
+  },
+  {
+   "pagina": 47,
+   "textos": 3,
+   "ocr": false,
+   "cuerpo_pt": 12.5,
+   "columnas": null
+  },
+  {
+   "pagina": 48,
+   "textos": 170,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 8.04,
+    "superior": 11.2,
+    "inferior": 10.05
+   }
+  },
+  {
+   "pagina": 49,
+   "textos": 142,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.31,
+    "superior": 17.29,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 50,
+   "textos": 239,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.77,
+    "superior": 37.06,
+    "inferior": 8.53
+   }
+  },
+  {
+   "pagina": 51,
+   "textos": 72,
+   "ocr": false,
+   "cuerpo_pt": 13,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.37,
+    "superior": 35.42,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 52,
+   "textos": 373,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 8.37,
+    "superior": 11.2,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 53,
+   "textos": 123,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 35.71,
+    "superior": 14.25,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 54,
+   "textos": 5,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": null
+  },
+  {
+   "pagina": 55,
+   "textos": 133,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 63.02,
+    "derecho": 6.25,
+    "superior": 12.72,
+    "inferior": 8.53
+   }
+  },
+  {
+   "pagina": 56,
+   "textos": 88,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.72,
+    "superior": 61.4,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 57,
+   "textos": 64,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 6.43,
+    "superior": 11.2,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 58,
+   "textos": 149,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.38,
+    "superior": 11.2,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 59,
+   "textos": 125,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 5,
+   "margenes_pct": {
+    "izquierdo": 7.17,
+    "derecho": 8.4,
+    "superior": 38.58,
+    "inferior": 19.18
+   }
+  },
+  {
+   "pagina": 60,
+   "textos": 94,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.28,
+    "superior": 32.51,
+    "inferior": 7.24
+   }
+  },
+  {
+   "pagina": 61,
+   "textos": 132,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 8.22,
+    "superior": 14.25,
+    "inferior": 7
+   }
+  },
+  {
+   "pagina": 62,
+   "textos": 3,
+   "ocr": false,
+   "cuerpo_pt": 12.5,
+   "columnas": null
+  },
+  {
+   "pagina": 63,
+   "textos": 54,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 24.45,
+    "derecho": 11.23,
+    "superior": 70.18,
+    "inferior": 5.6
+   }
+  },
+  {
+   "pagina": 64,
+   "textos": 77,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.55,
+    "superior": 11.2,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 65,
+   "textos": 182,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.41,
+    "superior": 15.77,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 66,
+   "textos": 109,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 6.28,
+    "derecho": 40.51,
+    "superior": 29.46,
+    "inferior": 57.21
+   }
+  },
+  {
+   "pagina": 67,
+   "textos": 0,
+   "ocr": true,
+   "columnas": null
+  },
+  {
+   "pagina": 68,
+   "textos": 131,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.28,
+    "superior": 11.2,
+    "inferior": 22.62
+   }
+  },
+  {
+   "pagina": 69,
+   "textos": 103,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 13.02,
+    "derecho": 6.43,
+    "superior": 23.57,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 70,
+   "textos": 121,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 9.25,
+    "superior": 28.07,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 71,
+   "textos": 109,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 7.17,
+    "derecho": 6.37,
+    "superior": 29.45,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 72,
+   "textos": 455,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.62,
+    "superior": 48.9,
+    "inferior": 7
+   }
+  },
+  {
+   "pagina": 73,
+   "textos": 187,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.23,
+    "superior": 15.77,
+    "inferior": 8.53
+   }
+  },
+  {
+   "pagina": 74,
+   "textos": 13,
+   "ocr": false,
+   "cuerpo_pt": 23,
+   "columnas": null
+  },
+  {
+   "pagina": 75,
+   "textos": 79,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 16.87,
+    "derecho": 9.58,
+    "superior": 26.41,
+    "inferior": 8.53
+   }
+  },
+  {
+   "pagina": 76,
+   "textos": 173,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.7,
+    "superior": 11.2,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 77,
+   "textos": 189,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 8.02,
+    "superior": 14.25,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 78,
+   "textos": 111,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 13.84,
+    "derecho": 36.44,
+    "superior": 43.15,
+    "inferior": 11.58
+   }
+  },
+  {
+   "pagina": 79,
+   "textos": 7,
+   "ocr": false,
+   "cuerpo_pt": 7.5,
+   "columnas": null
+  },
+  {
+   "pagina": 80,
+   "textos": 109,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 4,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.84,
+    "superior": 43.26,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 81,
+   "textos": 219,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.58,
+    "superior": 15.77,
+    "inferior": 8.53
+   }
+  },
+  {
+   "pagina": 82,
+   "textos": 10,
+   "ocr": false,
+   "cuerpo_pt": 12.5,
+   "columnas": null
+  },
+  {
+   "pagina": 83,
+   "textos": 72,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 22.05,
+    "derecho": 12.42,
+    "superior": 34.52,
+    "inferior": 7.69
+   }
+  },
+  {
+   "pagina": 84,
+   "textos": 173,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.77,
+    "superior": 15.76,
+    "inferior": 10.06
+   }
+  },
+  {
+   "pagina": 85,
+   "textos": 29,
+   "ocr": false,
+   "cuerpo_pt": 12.5,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 35.9,
+    "derecho": 6.23,
+    "superior": 43.24,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 86,
+   "textos": 187,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.76,
+    "superior": 15.77,
+    "inferior": 10.05
+   }
+  },
+  {
+   "pagina": 87,
+   "textos": 97,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.43,
+    "superior": 22.28,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 88,
+   "textos": 12,
+   "ocr": false,
+   "cuerpo_pt": 26,
+   "columnas": null
+  },
+  {
+   "pagina": 89,
+   "textos": 37,
+   "ocr": false,
+   "cuerpo_pt": 12.5,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 65.42,
+    "derecho": 6.17,
+    "superior": 11.34,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 90,
+   "textos": 159,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.7,
+    "superior": 11.2,
+    "inferior": 7.62
+   }
+  },
+  {
+   "pagina": 91,
+   "textos": 136,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.34,
+    "superior": 46.19,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 92,
+   "textos": 117,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.35,
+    "superior": 11.2,
+    "inferior": 8.53
+   }
+  },
+  {
+   "pagina": 93,
+   "textos": 85,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.37,
+    "superior": 75.09,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 94,
+   "textos": 349,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 8.7,
+    "superior": 32.23,
+    "inferior": 7.64
+   }
+  },
+  {
+   "pagina": 95,
+   "textos": 131,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.28,
+    "superior": 12.72,
+    "inferior": 7.04
+   }
+  },
+  {
+   "pagina": 96,
+   "textos": 22,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 20.19,
+    "superior": 78.13,
+    "inferior": 2.72
+   }
+  },
+  {
+   "pagina": 97,
+   "textos": 21,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 55.17,
+    "derecho": 6.17,
+    "superior": 62.92,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 98,
+   "textos": 194,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.41,
+    "superior": 11.2,
+    "inferior": 7.62
+   }
+  },
+  {
+   "pagina": 99,
+   "textos": 171,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.48,
+    "superior": 12.75,
+    "inferior": 7.62
+   }
+  },
+  {
+   "pagina": 100,
+   "textos": 124,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.64,
+    "superior": 58.36,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 101,
+   "textos": 229,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 1,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 8.78,
+    "superior": 41.63,
+    "inferior": 7.62
+   }
+  },
+  {
+   "pagina": 102,
+   "textos": 10,
+   "ocr": false,
+   "cuerpo_pt": 20,
+   "columnas": null
+  },
+  {
+   "pagina": 103,
+   "textos": 96,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 48.33,
+    "derecho": 6.2,
+    "superior": 9.68,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 104,
+   "textos": 130,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 5,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 9.26,
+    "superior": 11.2,
+    "inferior": 13.93
+   }
+  },
+  {
+   "pagina": 105,
+   "textos": 119,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.43,
+    "superior": 11.2,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 106,
+   "textos": 139,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.51,
+    "superior": 29.46,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 107,
+   "textos": 68,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 7.19,
+    "derecho": 6.25,
+    "superior": 76.61,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 108,
+   "textos": 120,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 2,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 8.03,
+    "superior": 58.36,
+    "inferior": 7.01
+   }
+  },
+  {
+   "pagina": 109,
+   "textos": 163,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 7.18,
+    "derecho": 9.77,
+    "superior": 14.25,
+    "inferior": 10.17
+   }
+  },
+  {
+   "pagina": 110,
+   "textos": 5,
+   "ocr": false,
+   "cuerpo_pt": 10,
+   "columnas": null
+  },
+  {
+   "pagina": 111,
+   "textos": 157,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 13.75,
+    "derecho": 6.32,
+    "superior": 38.58,
+    "inferior": 8.53
+   }
+  },
+  {
+   "pagina": 112,
+   "textos": 130,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 7.6,
+    "superior": 11.2,
+    "inferior": 8.53
+   }
+  },
+  {
+   "pagina": 113,
+   "textos": 105,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 6.25,
+    "derecho": 6.38,
+    "superior": 11.22,
+    "inferior": 2.73
+   }
+  },
+  {
+   "pagina": 114,
+   "textos": 125,
+   "ocr": false,
+   "cuerpo_pt": 12,
+   "columnas": 3,
+   "margenes_pct": {
+    "izquierdo": 6.15,
+    "derecho": 7.45,
+    "superior": 27.39,
+    "inferior": 7.66
+   }
+  },
+  {
+   "pagina": 115,
+   "textos": 0,
+   "ocr": true,
+   "columnas": null
+  },
+  {
+   "pagina": 116,
+   "textos": 6,
+   "ocr": false,
+   "cuerpo_pt": 30,
+   "columnas": null
+  }
+ ],
+ "indesign": {
+  "version": "21.1.0.56",
+  "fecha": "Saturday, 24 Oct 2026 05:39:32 GMT",
+  "paginas": [
+   1,
+   2,
+   3,
+   10
+  ],
+  "marcos": {
+   "originales": 4,
+   "rellenos": 0,
+   "lineas": 0,
+   "campos": 0,
+   "textos": 205,
+   "ocr": 22
+  },
+  "estilos": 14,
+  "fuentes_faltantes": [],
+  "desbordes": 0,
+  "validacion_dtd": "0 errores",
+  "elementos_xml": 232,
+  "tiempo_s": 14.7
+ }
+}

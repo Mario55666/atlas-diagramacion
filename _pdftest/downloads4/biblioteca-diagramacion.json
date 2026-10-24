@@ -1,0 +1,74 @@
+{
+  "version": "1.0",
+  "generado": "2026-10-21T08:59:21.749Z",
+  "items": [
+    {
+      "id": "p1792573161142",
+      "nombre": "mock-periodico",
+      "fecha": "2026-10-21T08:59:21.142Z",
+      "pages": 2,
+      "type": "periodico",
+      "conf": 94,
+      "pattern": "tronco-columnas",
+      "patternName": "Tronco de columnas",
+      "columns": 4,
+      "analysis": {
+        "pages": 2,
+        "sampled": 2,
+        "pageW": 594.95996,
+        "pageH": 841.91998,
+        "ratio": 0.7066704367795144,
+        "columns": 4,
+        "gaps": 3,
+        "gutterPct": 0.8403926879381932,
+        "bodySize": 7.597499758437497,
+        "headlineSize": 39.99749983343744,
+        "headlineRatio": 3.132280428111743,
+        "textCoverage": 0.3966712706408775,
+        "imageCoverage": 0.08408855660025061,
+        "imagePeak": 0.16817711320050122,
+        "imageCount": 0.5,
+        "charsPerPage": 5852.5,
+        "linesPerPage": 222.5,
+        "textDensity": 116.8376644573342,
+        "scanned": false,
+        "margins": {
+          "left": 4.287972200181625,
+          "right": 4.236649182338159,
+          "top": 5.077679498561143,
+          "bottom": 25.215580016805752
+        }
+      },
+      "cfg": {
+        "soporte": "periodico",
+        "patron": "tronco-columnas",
+        "columnas": 4,
+        "medianil": 1,
+        "margen": 2,
+        "densidad": "compacta",
+        "equilibrio": "simetrico",
+        "teoria": "editorial-moderno"
+      },
+      "confScores": [
+        {
+          "id": "periodico",
+          "label": "Periódico",
+          "score": 68,
+          "pct": 94
+        },
+        {
+          "id": "revista",
+          "label": "Revista",
+          "score": 43,
+          "pct": 6
+        },
+        {
+          "id": "anuncio",
+          "label": "Anuncio",
+          "score": 7,
+          "pct": 0
+        }
+      ]
+    }
+  ]
+}
